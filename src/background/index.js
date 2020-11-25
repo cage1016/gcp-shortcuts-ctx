@@ -1,11 +1,11 @@
 import { SERVICES } from './data'
 
 const resetDefaultSuggestion = () => chrome.omnibox.setDefaultSuggestion({
-  description: '<url><match>gcp:</match></url> Quick Launch GCP'
+  description: '<url><match>gcs:</match></url> Quick Launch GCP'
 });
 
 const updateDefaultSuggestion = (text, isLogined, defaultProject) => {
-  let description = '<match><url>gcp</url></match><dim> [</dim>';
+  let description = '<match><url>gcs</url></match><dim> [</dim>';
 
   if (isLogined) {
     const isProject = /^p:/.test(text);
@@ -91,7 +91,10 @@ const getProjectAsync = async (token) => new Promise((resolve, reject) => fetch(
   let x = a.projectId.toLowerCase()
   let y = b.projectId.toLowerCase()
   return ((x < y) ? -1 : ((x > y) ? 1 : 0))
-}))))
+})))).catch(err => {
+  console.error("getProjectAsync err", err)
+  reject([])
+})
 
 const encodeXml = (s) => {
   var holder = document.createElement('div');

@@ -1,11 +1,11 @@
 {
-  "description": "Add support to the omnibox to quick launch Google Cloud Platform.",
+  "description": "Add support to the omnibox to quick launch Google Cloud Platform Console.",
   "name": "GCP Console Shortcuts",
   "background": {
     "page": "background.html"
   },
   "omnibox": {
-    "keyword": "gcp"
+    "keyword": "gcs"
   },
   "permissions": [
     "identity",
