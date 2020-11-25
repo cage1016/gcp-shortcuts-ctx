@@ -1,5 +1,37 @@
 {
+  "name": "google-cloud-platform-shortcuts",
+  "version": "0.1.0",
+  "description": "",
+  "scripts": {
+    "start": "npm run dev && webpack serve --config ./webpack.dev.config.js --mode development",
+    "deploy": "npm run prod && webpack --config ./webpack.prod.config.js --mode production",
+    "x": "webpack --config ./webpack.prod.config.js",
+    "dev": "npm run clean:dev:dev && npm run copy:dev && npm run build:dev",
+    "copy:dev": "npm run clean:dev:dev && npm run copy:dev:asset && npm run copy:dev:manifest",
+    "copy:dev:asset": "rsync -a --exclude='manifest.*.json' --exclude=views ./public/* ./dev",
+    "copy:dev:manifest": "cp public/manifest.dev.json ./dev/manifest.json",
+    "build:dev": "npm run build:dev:html",
+    "build:dev:html": "jade --obj '{ \"env\": \"dev\" }' ./public/views/*.jade --out ./dev",
+    "watch:dev:view": "watch 'npm run build:dev' ./public/views",
+    "watch:dev:manifest": "watch 'npm run copy:dev:manifest' public",
+    "watch:dev": "parallelshell 'npm run watch:dev:view' 'npm run watch:dev:manifest'",
+    "clean:dev:dev": "rm -rf ./dev && mkdir ./dev",
+    "clean:prod:dist": "rm -rf ./dist && mkdir ./dist",
+    "build:prod:html": "jade --obj '{ \"env\": \"prod\" }' ./public/views/*.jade --out ./dist",
+    "build:prod": "npm run build:prod:html",
+    "copy:prod:asset": "rsync -a --exclude='manifest.*.json' --exclude=views ./public/* ./dist",
+    "copy:prod:manifest": "cp public/manifest.prod.json ./dist/manifest.json",
+    "copy:prod": "npm run clean:prod:dist && npm run copy:prod:asset && npm run copy:prod:manifest",
+    "prod": "npm run clean:prod:dist && npm run copy:prod && npm run build:prod",
+    "test": "webpack --config ./webpack.dev.config.js"
+  },
   "devDependencies": {
-    "webpack": "^5.6.0"
+    "crx-webpack-plugin": "https://github.com/apasvistelik/crx-webpack-plugin",
+    "jade-cli": "^0.1.1",
+    "parallelshell": "3.0.1",
+    "terser-webpack-plugin": "^5.0.3",
+    "webpack": "^5.6.0",
+    "webpack-cli": "^4.2.0",
+    "webpack-dev-server": "^3.11.0"
   }
 }
