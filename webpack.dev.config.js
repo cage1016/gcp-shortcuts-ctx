@@ -25,6 +25,7 @@ module.exports = {
   devServer: {
     contentBase: './dist',
     hot: true,
+    disableHostCheck: true,
     port: 3000,
     https: true
   }
