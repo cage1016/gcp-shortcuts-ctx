@@ -5,7 +5,7 @@
     "page": "background.html"
   },
   "omnibox": {
-    "keyword": "gcs"
+    "keyword": "g"
   },
   "permissions": [
     "identity",
