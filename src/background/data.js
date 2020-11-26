@@ -1,1387 +1,1382 @@
 export const SERVICES = [
     {
-        "name": "Home / Dashboard",
-        "url": "https://console.cloud.google.com/home/dashboard?project=PROJECT_ID",
-        "index": "0000"
+        "index": "0000",
+        "name": "Dashboard - Home",
+        "url": "https://console.cloud.google.com/home/dashboard?project=PROJECT_ID"
     },
     {
-        "name": "Home / Activity",
-        "url": "https://console.cloud.google.com/home/activity?project=PROJECT_ID",
-        "index": "0001"
+        "index": "0001",
+        "name": "Activity - Home",
+        "url": "https://console.cloud.google.com/home/activity?project=PROJECT_ID"
     },
     {
-        "name": "Home / Recommendations",
-        "url": "https://console.cloud.google.com/home/recommendations?project=PROJECT_ID",
-        "index": "0002"
+        "index": "0002",
+        "name": "Recommendations - Home",
+        "url": "https://console.cloud.google.com/home/recommendations?project=PROJECT_ID"
     },
     {
+        "index": "0100",
         "name": "Marketplace",
-        "url": "https://console.cloud.google.com/marketplace?project=PROJECT_ID",
-        "index": "0100"
+        "url": "https://console.cloud.google.com/marketplace?project=PROJECT_ID"
     },
     {
+        "index": "0200",
         "name": "Billing",
-        "url": "https://console.cloud.google.com/billing?project=PROJECT_ID",
-        "index": "0200"
+        "url": "https://console.cloud.google.com/billing?project=PROJECT_ID"
     },
     {
-        "name": "APIs & Services / Dashboard",
-        "url": "https://console.cloud.google.com/apis/dashboard?project=PROJECT_ID",
-        "index": "0301"
+        "index": "0301",
+        "name": "Dashboard - APIs & Services",
+        "url": "https://console.cloud.google.com/apis/dashboard?project=PROJECT_ID"
     },
     {
-        "name": "APIs & Services / Library",
-        "url": "https://console.cloud.google.com/apis/library?project=PROJECT_ID",
-        "index": "0302"
+        "index": "0302",
+        "name": "Library - APIs & Services",
+        "url": "https://console.cloud.google.com/apis/library?project=PROJECT_ID"
     },
     {
-        "name": "APIs & Services / Credentials",
-        "url": "https://console.cloud.google.com/apis/credentials?project=PROJECT_ID",
-        "index": "0303"
+        "index": "0303",
+        "name": "Credentials - APIs & Services",
+        "url": "https://console.cloud.google.com/apis/credentials?project=PROJECT_ID"
     },
     {
-        "name": "APIs & Services / OAuth consent screen",
-        "url": "https://console.cloud.google.com/apis/credentials/consent?project=PROJECT_ID",
-        "index": "0304"
+        "index": "0304",
+        "name": "OAuth consent screen - APIs & Services",
+        "url": "https://console.cloud.google.com/apis/credentials/consent?project=PROJECT_ID"
     },
     {
-        "name": "APIs & Services / Domain verification",
-        "url": "https://console.cloud.google.com/apis/credentials/domainverification?project=PROJECT_ID",
-        "index": "0305"
+        "index": "0305",
+        "name": "Domain verification - APIs & Services",
+        "url": "https://console.cloud.google.com/apis/credentials/domainverification?project=PROJECT_ID"
     },
     {
-        "name": "APIs & Services / Page usage agreements",
-        "url": "https://console.cloud.google.com/apis/agreements?project=PROJECT_ID",
-        "index": "0306"
+        "index": "0306",
+        "name": "Page usage agreements - APIs & Services",
+        "url": "https://console.cloud.google.com/apis/agreements?project=PROJECT_ID"
     },
     {
-        "name": "Support / Overview",
-        "url": "https://console.cloud.google.com/support?project=PROJECT_ID",
-        "index": "0401"
+        "index": "0401",
+        "name": "Overview - Support",
+        "url": "https://console.cloud.google.com/support?project=PROJECT_ID"
     },
     {
-        "name": "Support / Cases",
-        "url": "https://console.cloud.google.com/support/cases?project=PROJECT_ID",
-        "index": "0402"
+        "index": "0402",
+        "name": "Cases - Support",
+        "url": "https://console.cloud.google.com/support/cases?project=PROJECT_ID"
     },
     {
-        "name": "Support / Chat support",
-        "url": "https://console.cloud.google.com/support/chat?project=PROJECT_ID",
-        "index": "0403"
+        "index": "0403",
+        "name": "Chat support - Support",
+        "url": "https://console.cloud.google.com/support/chat?project=PROJECT_ID"
     },
     {
-        "name": "Support / Phone support",
-        "url": "https://console.cloud.google.com/support/phone?project=PROJECT_ID",
-        "index": "0404"
+        "index": "0404",
+        "name": "Phone support - Support",
+        "url": "https://console.cloud.google.com/support/phone?project=PROJECT_ID"
     },
     {
-        "name": "Support / Community support",
-        "url": "https://console.cloud.google.com/support/community?project=PROJECT_ID",
-        "index": "0405"
+        "index": "0405",
+        "name": "Community support - Support",
+        "url": "https://console.cloud.google.com/support/community?project=PROJECT_ID"
     },
     {
-        "name": "Support / Settings",
-        "url": "https://console.cloud.google.com/support/roles?project=PROJECT_ID",
-        "index": "0406"
+        "index": "0406",
+        "name": "Settings - Support",
+        "url": "https://console.cloud.google.com/support/roles?project=PROJECT_ID"
     },
     {
-        "name": "IAM & Admin / IAM",
-        "url": "https://console.cloud.google.com/iam-admin/iam?project=PROJECT_ID",
-        "index": "0501"
+        "index": "0501",
+        "name": "IAM - IAM & Admin",
+        "url": "https://console.cloud.google.com/iam-admin/iam?project=PROJECT_ID"
     },
     {
-        "name": "IAM & Admin / Identity & Organization",
-        "url": "https://console.cloud.google.com/iam-admin/cloudidentity/consumer?project=PROJECT_ID",
-        "index": "0502"
+        "index": "0502",
+        "name": "Identity & Organization - IAM & Admin",
+        "url": "https://console.cloud.google.com/iam-admin/org-onboarding?project=PROJECT_ID"
     },
     {
-        "name": "IAM & Admin / Policy Troubleshooter",
-        "url": "https://console.cloud.google.com/iam-admin/troubleshooter?project=PROJECT_ID",
-        "index": "0503"
+        "index": "0503",
+        "name": "Policy Troubleshooter - IAM & Admin",
+        "url": "https://console.cloud.google.com/iam-admin/troubleshooter?project=PROJECT_ID"
     },
     {
-        "name": "IAM & Admin / Policy Analyzer",
-        "url": "https://console.cloud.google.com/iam-admin/analyzer?project=PROJECT_ID",
-        "index": "0504"
+        "index": "0504",
+        "name": "Policy Analyzer - IAM & Admin",
+        "url": "https://console.cloud.google.com/iam-admin/analyzer?project=PROJECT_ID"
     },
     {
-        "name": "IAM & Admin / Organization Policies",
-        "url": "https://console.cloud.google.com/iam-admin/orgpolicies?project=PROJECT_ID",
-        "index": "0505"
+        "index": "0505",
+        "name": "Organization Policies - IAM & Admin",
+        "url": "https://console.cloud.google.com/iam-admin/orgpolicies?project=PROJECT_ID"
     },
     {
-        "name": "IAM & Admin / Quotas",
-        "url": "https://console.cloud.google.com/iam-admin/quotas?project=PROJECT_ID",
-        "index": "0506"
+        "index": "0506",
+        "name": "Service Accounts - IAM & Admin",
+        "url": "https://console.cloud.google.com/iam-admin/serviceaccounts?project=PROJECT_ID"
     },
     {
-        "name": "IAM & Admin / Service Accounts",
-        "url": "https://console.cloud.google.com/iam-admin/serviceaccounts?project=PROJECT_ID",
-        "index": "0507"
+        "index": "0507",
+        "name": "Labels - IAM & Admin",
+        "url": "https://console.cloud.google.com/iam-admin/labels?project=PROJECT_ID"
     },
     {
-        "name": "IAM & Admin / Labels",
-        "url": "https://console.cloud.google.com/iam-admin/labels?project=PROJECT_ID",
-        "index": "0508"
+        "index": "0508",
+        "name": "Settings - IAM & Admin",
+        "url": "https://console.cloud.google.com/iam-admin/settings?project=PROJECT_ID"
     },
     {
-        "name": "IAM & Admin / Settings",
-        "url": "https://console.cloud.google.com/iam-admin/settings?project=PROJECT_ID",
-        "index": "0509"
+        "index": "0509",
+        "name": "Privacy & Security - IAM & Admin",
+        "url": "https://console.cloud.google.com/iam-admin/privacy?project=PROJECT_ID"
     },
     {
-        "name": "IAM & Admin / Privacy & Security",
-        "url": "https://console.cloud.google.com/iam-admin/privacy?project=PROJECT_ID",
-        "index": "0510"
+        "index": "0510",
+        "name": "Identity-Aware Proxy - IAM & Admin",
+        "url": "https://console.cloud.google.com/iam-admin/iap?project=PROJECT_ID"
     },
     {
-        "name": "IAM & Admin / Identity-Aware Proxy",
-        "url": "https://console.cloud.google.com/iam-admin/iap?project=PROJECT_ID",
-        "index": "0511"
+        "index": "0511",
+        "name": "Roles - IAM & Admin",
+        "url": "https://console.cloud.google.com/iam-admin/roles?project=PROJECT_ID"
     },
     {
-        "name": "IAM & Admin / Roles",
-        "url": "https://console.cloud.google.com/iam-admin/roles?project=PROJECT_ID",
-        "index": "0512"
+        "index": "0512",
+        "name": "Audit Logs - IAM & Admin",
+        "url": "https://console.cloud.google.com/iam-admin/audit?project=PROJECT_ID"
     },
     {
-        "name": "IAM & Admin / Audit Logs",
-        "url": "https://console.cloud.google.com/iam-admin/audit?project=PROJECT_ID",
-        "index": "0513"
+        "index": "0513",
+        "name": "Manage Resources - IAM & Admin",
+        "url": "https://console.cloud.google.com/iam-admin/projects?previousPage=%2Fhome%2Fdashboard%3Fproject%3DPROJECT_ID&project=PROJECT_ID"
     },
     {
-        "name": "IAM & Admin / Manage Resources",
-        "url": "https://console.cloud.google.com/iam-admin/projects?previousPage=%2Fiam-admin%2Fiam%3Fproject%3DPROJECT_ID&project=PROJECT_ID",
-        "index": "0514"
+        "index": "0514",
+        "name": "Essential Contacts NEW - IAM & Admin",
+        "url": "https://console.cloud.google.com/iam-admin/essential-contacts?project=PROJECT_ID"
     },
     {
-        "name": "IAM & Admin / Essential Contacts NEW",
-        "url": "https://console.cloud.google.com/iam-admin/essential-contacts?project=PROJECT_ID",
-        "index": "0515"
+        "index": "0515",
+        "name": "Groups - IAM & Admin",
+        "url": "https://console.cloud.google.com/iam-admin/groups?project=PROJECT_ID"
     },
     {
-        "name": "IAM & Admin / Groups",
-        "url": "https://console.cloud.google.com/iam-admin/groups?project=PROJECT_ID",
-        "index": "0516"
+        "index": "0516",
+        "name": "Quotas - IAM & Admin",
+        "url": "https://console.cloud.google.com/iam-admin/quotas?project=PROJECT_ID"
     },
     {
+        "index": "0600",
         "name": "Getting started",
-        "url": "https://console.cloud.google.com/getting-started?project=PROJECT_ID",
-        "index": "0600"
+        "url": "https://console.cloud.google.com/getting-started?project=PROJECT_ID"
     },
     {
-        "name": "Security / Security Command Center",
-        "url": "https://console.cloud.google.com/security/command-center?project=PROJECT_ID",
-        "index": "0701"
+        "index": "0701",
+        "name": "Security Command Center - Security",
+        "url": "https://console.cloud.google.com/security/command-center?project=PROJECT_ID"
     },
     {
-        "name": "Security / reCAPTCHA Enterprise",
-        "url": "https://console.cloud.google.com/security/recaptcha?project=PROJECT_ID",
-        "index": "0702"
+        "index": "0702",
+        "name": "reCAPTCHA Enterprise - Security",
+        "url": "https://console.cloud.google.com/security/recaptcha?project=PROJECT_ID"
     },
     {
-        "name": "Security / Threat Detection",
-        "url": "https://console.cloud.google.com/security/threat-detection?project=PROJECT_ID",
-        "index": "0703"
+        "index": "0703",
+        "name": "Threat Detection - Security",
+        "url": "https://console.cloud.google.com/security/threat-detection?project=PROJECT_ID"
     },
     {
-        "name": "Security / Context-Aware Access",
-        "url": "https://console.cloud.google.com/security/caa?project=PROJECT_ID",
-        "index": "0704"
+        "index": "0704",
+        "name": "Context-Aware Access - Security",
+        "url": "https://console.cloud.google.com/security/caa?project=PROJECT_ID"
     },
     {
-        "name": "Security / Identity-Aware Proxy",
-        "url": "https://console.cloud.google.com/security/iap?project=PROJECT_ID",
-        "index": "0705"
+        "index": "0705",
+        "name": "Identity-Aware Proxy - Security",
+        "url": "https://console.cloud.google.com/security/iap?project=PROJECT_ID"
     },
     {
-        "name": "Security / Access Context Manager",
-        "url": "https://console.cloud.google.com/security/access-level?project=PROJECT_ID",
-        "index": "0706"
+        "index": "0706",
+        "name": "Access Context Manager - Security",
+        "url": "https://console.cloud.google.com/security/access-level?project=PROJECT_ID"
     },
     {
-        "name": "Security / VPC Service Controls",
-        "url": "https://console.cloud.google.com/security/service-perimeter?project=PROJECT_ID",
-        "index": "0707"
+        "index": "0707",
+        "name": "VPC Service Controls - Security",
+        "url": "https://console.cloud.google.com/security/service-perimeter?project=PROJECT_ID"
     },
     {
-        "name": "Security / Binary Authorization",
-        "url": "https://console.cloud.google.com/security/binary-authorization?project=PROJECT_ID",
-        "index": "0708"
+        "index": "0708",
+        "name": "Binary Authorization - Security",
+        "url": "https://console.cloud.google.com/security/binary-authorization?project=PROJECT_ID"
     },
     {
-        "name": "Security / Data Loss Prevention",
-        "url": "https://console.cloud.google.com/security/dlp?project=PROJECT_ID",
-        "index": "0709"
+        "index": "0709",
+        "name": "Data Loss Prevention - Security",
+        "url": "https://console.cloud.google.com/security/dlp?project=PROJECT_ID"
     },
     {
-        "name": "Security / Cryptographic Keys",
-        "url": "https://console.cloud.google.com/security/kms?project=PROJECT_ID",
-        "index": "0710"
+        "index": "0710",
+        "name": "Cryptographic Keys - Security",
+        "url": "https://console.cloud.google.com/security/kms?project=PROJECT_ID"
     },
     {
-        "name": "Security / Certificate Authority Service",
-        "url": "https://console.cloud.google.com/security/cas?project=PROJECT_ID",
-        "index": "0711"
+        "index": "0711",
+        "name": "Certificate Authority Service - Security",
+        "url": "https://console.cloud.google.com/security/cas?project=PROJECT_ID"
     },
     {
-        "name": "Security / Secret Manager",
-        "url": "https://console.cloud.google.com/security/secret-manager?project=PROJECT_ID",
-        "index": "0712"
+        "index": "0712",
+        "name": "Secret Manager - Security",
+        "url": "https://console.cloud.google.com/security/secret-manager?project=PROJECT_ID"
     },
     {
-        "name": "Security / Access Approval",
-        "url": "https://console.cloud.google.com/security/access-approval?project=PROJECT_ID",
-        "index": "0713"
+        "index": "0713",
+        "name": "Access Approval - Security",
+        "url": "https://console.cloud.google.com/security/access-approval?project=PROJECT_ID"
     },
     {
-        "name": "Security / Web Security Scanner",
-        "url": "https://console.cloud.google.com/security/web-scanner?project=PROJECT_ID",
-        "index": "0714"
+        "index": "0714",
+        "name": "Web Security Scanner - Security",
+        "url": "https://console.cloud.google.com/security/web-scanner?project=PROJECT_ID"
     },
     {
-        "name": "Security / Managed Microsoft AD",
-        "url": "https://console.cloud.google.com/security/cloud-ad?project=PROJECT_ID",
-        "index": "0715"
+        "index": "0715",
+        "name": "Managed Microsoft AD - Security",
+        "url": "https://console.cloud.google.com/security/cloud-ad?project=PROJECT_ID"
     },
     {
+        "index": "0800",
         "name": "Compliance",
-        "url": "https://console.cloud.google.com/compliance/assuredworkloads?project=PROJECT_ID",
-        "index": "0800"
+        "url": "https://console.cloud.google.com/compliance/assuredworkloads?project=PROJECT_ID"
     },
     {
-        "name": "Anthos / Dashboard",
-        "url": "https://console.cloud.google.com/anthos?project=PROJECT_ID",
-        "index": "0901"
+        "index": "0901",
+        "name": "Dashboard - Anthos",
+        "url": "https://console.cloud.google.com/anthos?project=PROJECT_ID"
     },
     {
-        "name": "Anthos / Service Mesh",
-        "url": "https://console.cloud.google.com/anthos/services?project=PROJECT_ID",
-        "index": "0902"
+        "index": "0902",
+        "name": "Service Mesh - Anthos",
+        "url": "https://console.cloud.google.com/anthos/services?project=PROJECT_ID"
     },
     {
-        "name": "Anthos / Config Management",
-        "url": "https://console.cloud.google.com/anthos/config_management?project=PROJECT_ID",
-        "index": "0903"
+        "index": "0903",
+        "name": "Config Management - Anthos",
+        "url": "https://console.cloud.google.com/anthos/config_management?project=PROJECT_ID"
     },
     {
-        "name": "Anthos / Clusters",
-        "url": "https://console.cloud.google.com/anthos/clusters?project=PROJECT_ID",
-        "index": "0904"
+        "index": "0904",
+        "name": "Clusters - Anthos",
+        "url": "https://console.cloud.google.com/anthos/clusters?project=PROJECT_ID"
     },
     {
-        "name": "Anthos / Features",
-        "url": "https://console.cloud.google.com/anthos/features?project=PROJECT_ID",
-        "index": "0905"
+        "index": "0905",
+        "name": "Features - Anthos",
+        "url": "https://console.cloud.google.com/anthos/features?project=PROJECT_ID"
     },
     {
-        "name": "Anthos / Migrate to containers",
-        "url": "https://console.cloud.google.com/anthos/migrate?project=PROJECT_ID",
-        "index": "0906"
+        "index": "0906",
+        "name": "Migrate to containers - Anthos",
+        "url": "https://console.cloud.google.com/anthos/migrate?project=PROJECT_ID"
     },
     {
-        "name": "Anthos / Security (PREVIEW)",
-        "url": "https://console.cloud.google.com/anthos/security?project=PROJECT_ID",
-        "index": "0907"
+        "index": "0907",
+        "name": "Security (PREVIEW) - Anthos",
+        "url": "https://console.cloud.google.com/anthos/security?project=PROJECT_ID"
     },
     {
-        "name": "App Engine / Dashboard",
-        "url": "https://console.cloud.google.com/appengine?project=PROJECT_ID",
-        "index": "1001"
+        "index": "1001",
+        "name": "Dashboard - App Engine",
+        "url": "https://console.cloud.google.com/appengine?project=PROJECT_ID"
     },
     {
-        "name": "App Engine / Services",
-        "url": "https://console.cloud.google.com/appengine/services?project=PROJECT_ID",
-        "index": "1002"
+        "index": "1002",
+        "name": "Services - App Engine",
+        "url": "https://console.cloud.google.com/appengine/services?project=PROJECT_ID"
     },
     {
-        "name": "App Engine / Versions",
-        "url": "https://console.cloud.google.com/appengine/versions?project=PROJECT_ID",
-        "index": "1003"
+        "index": "1003",
+        "name": "Versions - App Engine",
+        "url": "https://console.cloud.google.com/appengine/versions?project=PROJECT_ID"
     },
     {
-        "name": "App Engine / Instances",
-        "url": "https://console.cloud.google.com/appengine/instances?project=PROJECT_ID",
-        "index": "1004"
+        "index": "1004",
+        "name": "Instances - App Engine",
+        "url": "https://console.cloud.google.com/appengine/instances?project=PROJECT_ID"
     },
     {
-        "name": "App Engine / Task queues",
-        "url": "https://console.cloud.google.com/appengine/taskqueues?project=PROJECT_ID",
-        "index": "1005"
+        "index": "1005",
+        "name": "Task queues - App Engine",
+        "url": "https://console.cloud.google.com/appengine/taskqueues?project=PROJECT_ID"
     },
     {
-        "name": "App Engine / Cron jobs",
-        "url": "https://console.cloud.google.com/appengine/cronjobs?project=PROJECT_ID",
-        "index": "1006"
+        "index": "1006",
+        "name": "Cron jobs - App Engine",
+        "url": "https://console.cloud.google.com/appengine/cronjobs?project=PROJECT_ID"
     },
     {
-        "name": "App Engine / Security scans",
-        "url": "https://console.cloud.google.com/appengine/securityscan?project=PROJECT_ID",
-        "index": "1007"
+        "index": "1007",
+        "name": "Security scans - App Engine",
+        "url": "https://console.cloud.google.com/appengine/securityscan?project=PROJECT_ID"
     },
     {
-        "name": "App Engine / Firewall rules",
-        "url": "https://console.cloud.google.com/appengine/firewall?project=PROJECT_ID",
-        "index": "1008"
+        "index": "1008",
+        "name": "Firewall rules - App Engine",
+        "url": "https://console.cloud.google.com/appengine/firewall?project=PROJECT_ID"
     },
     {
-        "name": "App Engine / Quotas",
-        "url": "https://console.cloud.google.com/appengine/quotadetails?project=PROJECT_ID",
-        "index": "1009"
+        "index": "1009",
+        "name": "Quotas - App Engine",
+        "url": "https://console.cloud.google.com/appengine/quotadetails?project=PROJECT_ID"
     },
     {
-        "name": "App Engine / Memcache",
-        "url": "https://console.cloud.google.com/appengine/memcache?project=PROJECT_ID",
-        "index": "1010"
+        "index": "1010",
+        "name": "Memcache - App Engine",
+        "url": "https://console.cloud.google.com/appengine/memcache?project=PROJECT_ID"
     },
     {
-        "name": "App Engine / Search",
-        "url": "https://console.cloud.google.com/appengine/search?project=PROJECT_ID",
-        "index": "1011"
+        "index": "1011",
+        "name": "Search - App Engine",
+        "url": "https://console.cloud.google.com/appengine/search?project=PROJECT_ID"
     },
     {
-        "name": "App Engine / Settings",
-        "url": "https://console.cloud.google.com/appengine/settings?project=PROJECT_ID",
-        "index": "1012"
+        "index": "1012",
+        "name": "Settings - App Engine",
+        "url": "https://console.cloud.google.com/appengine/settings?project=PROJECT_ID"
     },
     {
-        "name": "Compute Engine / VM instances",
-        "url": "https://console.cloud.google.com/compute/instances?project=PROJECT_ID",
-        "index": "1101"
+        "index": "1101",
+        "name": "VM instances - Compute Engine",
+        "url": "https://console.cloud.google.com/compute/instances?project=PROJECT_ID"
     },
     {
-        "name": "Compute Engine / Instance groups",
-        "url": "https://console.cloud.google.com/compute/instanceGroups/list?project=PROJECT_ID",
-        "index": "1102"
+        "index": "1102",
+        "name": "Instance groups - Compute Engine",
+        "url": "https://console.cloud.google.com/compute/instanceGroups/list?project=PROJECT_ID"
     },
     {
-        "name": "Compute Engine / Instance templates",
-        "url": "https://console.cloud.google.com/compute/instanceTemplates/list?project=PROJECT_ID",
-        "index": "1103"
+        "index": "1103",
+        "name": "Instance templates - Compute Engine",
+        "url": "https://console.cloud.google.com/compute/instanceTemplates/list?project=PROJECT_ID"
     },
     {
-        "name": "Compute Engine / Sole-tenant nodes",
-        "url": "https://console.cloud.google.com/compute/soleTenancy?project=PROJECT_ID",
-        "index": "1104"
+        "index": "1104",
+        "name": "Sole-tenant nodes - Compute Engine",
+        "url": "https://console.cloud.google.com/compute/soleTenancy?project=PROJECT_ID"
     },
     {
-        "name": "Compute Engine / Machine images",
-        "url": "https://console.cloud.google.com/compute/machineImages?project=PROJECT_ID",
-        "index": "1105"
+        "index": "1105",
+        "name": "Machine images - Compute Engine",
+        "url": "https://console.cloud.google.com/compute/machineImages?project=PROJECT_ID"
     },
     {
-        "name": "Compute Engine / Disks",
-        "url": "https://console.cloud.google.com/compute/disks?project=PROJECT_ID",
-        "index": "1106"
+        "index": "1106",
+        "name": "Disks - Compute Engine",
+        "url": "https://console.cloud.google.com/compute/disks?project=PROJECT_ID"
     },
     {
-        "name": "Compute Engine / Snapshots",
-        "url": "https://console.cloud.google.com/compute/snapshots?project=PROJECT_ID",
-        "index": "1107"
+        "index": "1107",
+        "name": "Snapshots - Compute Engine",
+        "url": "https://console.cloud.google.com/compute/snapshots?project=PROJECT_ID"
     },
     {
-        "name": "Compute Engine / Images",
-        "url": "https://console.cloud.google.com/compute/images?project=PROJECT_ID",
-        "index": "1108"
+        "index": "1108",
+        "name": "Images - Compute Engine",
+        "url": "https://console.cloud.google.com/compute/images?project=PROJECT_ID"
     },
     {
-        "name": "Compute Engine / TPUs",
-        "url": "https://console.cloud.google.com/compute/tpus?project=PROJECT_ID",
-        "index": "1109"
+        "index": "1109",
+        "name": "TPUs - Compute Engine",
+        "url": "https://console.cloud.google.com/compute/tpus?project=PROJECT_ID"
     },
     {
-        "name": "Compute Engine / Migrate for Compute Engine",
-        "url": "https://console.cloud.google.com/compute/migration?project=PROJECT_ID",
-        "index": "1110"
+        "index": "1110",
+        "name": "Migrate for Compute Engine - Compute Engine",
+        "url": "https://console.cloud.google.com/compute/migration?project=PROJECT_ID"
     },
     {
-        "name": "Compute Engine / Committed use discounts",
-        "url": "https://console.cloud.google.com/compute/commitments?project=PROJECT_ID",
-        "index": "1111"
+        "index": "1111",
+        "name": "Committed use discounts - Compute Engine",
+        "url": "https://console.cloud.google.com/compute/commitments?project=PROJECT_ID"
     },
     {
-        "name": "Compute Engine / Metadata",
-        "url": "https://console.cloud.google.com/compute/metadata?project=PROJECT_ID",
-        "index": "1112"
+        "index": "1112",
+        "name": "Metadata - Compute Engine",
+        "url": "https://console.cloud.google.com/compute/metadata?project=PROJECT_ID"
     },
     {
-        "name": "Compute Engine / Health checks",
-        "url": "https://console.cloud.google.com/compute/healthChecks?project=PROJECT_ID",
-        "index": "1113"
+        "index": "1113",
+        "name": "Health checks - Compute Engine",
+        "url": "https://console.cloud.google.com/compute/healthChecks?project=PROJECT_ID"
     },
     {
-        "name": "Compute Engine / Zones",
-        "url": "https://console.cloud.google.com/compute/zones?project=PROJECT_ID",
-        "index": "1114"
+        "index": "1114",
+        "name": "Zones - Compute Engine",
+        "url": "https://console.cloud.google.com/compute/zones?project=PROJECT_ID"
     },
     {
-        "name": "Compute Engine / Network endpoint groups",
-        "url": "https://console.cloud.google.com/compute/networkendpointgroups/list?project=PROJECT_ID",
-        "index": "1115"
+        "index": "1115",
+        "name": "Network endpoint groups - Compute Engine",
+        "url": "https://console.cloud.google.com/compute/networkendpointgroups/list?project=PROJECT_ID"
     },
     {
-        "name": "Compute Engine / Operations",
-        "url": "https://console.cloud.google.com/compute/operations?project=PROJECT_ID",
-        "index": "1116"
+        "index": "1116",
+        "name": "Operations - Compute Engine",
+        "url": "https://console.cloud.google.com/compute/operations?project=PROJECT_ID"
     },
     {
-        "name": "Compute Engine / Security scans",
-        "url": "https://console.cloud.google.com/compute/securityscan?project=PROJECT_ID",
-        "index": "1117"
+        "index": "1117",
+        "name": "Security scans - Compute Engine",
+        "url": "https://console.cloud.google.com/compute/securityscan?project=PROJECT_ID"
     },
     {
-        "name": "Compute Engine / OS patch management",
-        "url": "https://console.cloud.google.com/compute/patch?project=PROJECT_ID",
-        "index": "1118"
+        "index": "1118",
+        "name": "OS patch management - Compute Engine",
+        "url": "https://console.cloud.google.com/compute/patch?project=PROJECT_ID"
     },
     {
-        "name": "Compute Engine / Settings",
-        "url": "https://console.cloud.google.com/compute/settings?project=PROJECT_ID",
-        "index": "1119"
+        "index": "1119",
+        "name": "Settings - Compute Engine",
+        "url": "https://console.cloud.google.com/compute/settings?project=PROJECT_ID"
     },
     {
-        "name": "Kubernetes Engine / Clusters",
-        "url": "https://console.cloud.google.com/kubernetes/list?project=PROJECT_ID",
-        "index": "1201"
+        "index": "1201",
+        "name": "Clusters - Kubernetes Engine",
+        "url": "https://console.cloud.google.com/kubernetes/list?project=PROJECT_ID"
     },
     {
-        "name": "Kubernetes Engine / Workloads",
-        "url": "https://console.cloud.google.com/kubernetes/workload?project=PROJECT_ID",
-        "index": "1202"
+        "index": "1202",
+        "name": "Workloads - Kubernetes Engine",
+        "url": "https://console.cloud.google.com/kubernetes/workload?project=PROJECT_ID"
     },
     {
-        "name": "Kubernetes Engine / Services & Ingress",
-        "url": "https://console.cloud.google.com/kubernetes/discovery?project=PROJECT_ID",
-        "index": "1203"
+        "index": "1203",
+        "name": "Services & Ingress - Kubernetes Engine",
+        "url": "https://console.cloud.google.com/kubernetes/discovery?project=PROJECT_ID"
     },
     {
-        "name": "Kubernetes Engine / Applications",
-        "url": "https://console.cloud.google.com/kubernetes/application?project=PROJECT_ID",
-        "index": "1204"
+        "index": "1204",
+        "name": "Applications - Kubernetes Engine",
+        "url": "https://console.cloud.google.com/kubernetes/application?project=PROJECT_ID"
     },
     {
-        "name": "Kubernetes Engine / Configuration",
-        "url": "https://console.cloud.google.com/kubernetes/config?project=PROJECT_ID",
-        "index": "1205"
+        "index": "1205",
+        "name": "Configuration - Kubernetes Engine",
+        "url": "https://console.cloud.google.com/kubernetes/config?project=PROJECT_ID"
     },
     {
-        "name": "Kubernetes Engine / Storage",
-        "url": "https://console.cloud.google.com/kubernetes/storage?project=PROJECT_ID",
-        "index": "1206"
+        "index": "1206",
+        "name": "Storage - Kubernetes Engine",
+        "url": "https://console.cloud.google.com/kubernetes/storage?project=PROJECT_ID"
     },
     {
-        "name": "Kubernetes Engine / Object Browser",
-        "url": "https://console.cloud.google.com/kubernetes/object/browser?project=PROJECT_ID",
-        "index": "1207"
+        "index": "1207",
+        "name": "Object Browser - Kubernetes Engine",
+        "url": "https://console.cloud.google.com/kubernetes/object/browser?project=PROJECT_ID"
     },
     {
-        "name": "Kubernetes Engine / Migrate to containers",
-        "url": "https://console.cloud.google.com/kubernetes/migrate?project=PROJECT_ID",
-        "index": "1208"
+        "index": "1208",
+        "name": "Migrate to containers - Kubernetes Engine",
+        "url": "https://console.cloud.google.com/kubernetes/migrate?project=PROJECT_ID"
     },
     {
+        "index": "1300",
         "name": "Cloud Functions",
-        "url": "https://console.cloud.google.com/functions?project=PROJECT_ID",
-        "index": "1300"
+        "url": "https://console.cloud.google.com/functions?project=PROJECT_ID"
     },
     {
+        "index": "1400",
         "name": "Cloud Run",
-        "url": "https://console.cloud.google.com/run?project=PROJECT_ID",
-        "index": "1400"
+        "url": "https://console.cloud.google.com/run?project=PROJECT_ID"
     },
     {
+        "index": "1500",
         "name": "VMware Engine",
-        "url": "https://console.cloud.google.com/gve?project=PROJECT_ID",
-        "index": "1500"
+        "url": "https://console.cloud.google.com/gve?project=PROJECT_ID"
     },
     {
-        "name": "Filestore / Instances",
-        "url": "https://console.cloud.google.com/filestore/instances?project=PROJECT_ID",
-        "index": "1601"
+        "index": "1601",
+        "name": "Instances - Filestore",
+        "url": "https://console.cloud.google.com/filestore/instances?project=PROJECT_ID"
     },
     {
-        "name": "Filestore / Backups",
-        "url": "https://console.cloud.google.com/filestore/backups?project=PROJECT_ID",
-        "index": "1602"
+        "index": "1602",
+        "name": "Backups - Filestore",
+        "url": "https://console.cloud.google.com/filestore/backups?project=PROJECT_ID"
     },
     {
-        "name": "Storage / Browser",
-        "url": "https://console.cloud.google.com/storage/browser?project=PROJECT_ID",
-        "index": "1701"
+        "index": "1701",
+        "name": "Browser - Storage",
+        "url": "https://console.cloud.google.com/storage/browser?project=PROJECT_ID"
     },
     {
-        "name": "Storage / Monitoring",
-        "url": "https://console.cloud.google.com/storage/monitoring?project=PROJECT_ID",
-        "index": "1702"
+        "index": "1702",
+        "name": "Monitoring - Storage",
+        "url": "https://console.cloud.google.com/storage/monitoring?project=PROJECT_ID"
     },
     {
-        "name": "Storage / Settings",
-        "url": "https://console.cloud.google.com/storage/settings?project=PROJECT_ID",
-        "index": "1703"
+        "index": "1703",
+        "name": "Settings - Storage",
+        "url": "https://console.cloud.google.com/storage/settings?project=PROJECT_ID"
     },
     {
-        "name": "Data Transfer / Transfer Service | cloud",
-        "url": "https://console.cloud.google.com/transfer/cloud?project=PROJECT_ID",
-        "index": "1801"
+        "index": "1801",
+        "name": "Transfer Service | cloud - Data Transfer",
+        "url": "https://console.cloud.google.com/transfer/cloud?project=PROJECT_ID"
     },
     {
-        "name": "Data Transfer / Transfer Service | on-premises",
-        "url": "https://console.cloud.google.com/transfer/on-premises?project=PROJECT_ID",
-        "index": "1802"
+        "index": "1802",
+        "name": "Transfer Service | on-premises - Data Transfer",
+        "url": "https://console.cloud.google.com/transfer/on-premises?project=PROJECT_ID"
     },
     {
-        "name": "Data Transfer / Transfer Appliance",
-        "url": "https://console.cloud.google.com/transfer/appliance?project=PROJECT_ID",
-        "index": "1803"
+        "index": "1803",
+        "name": "Transfer Appliance - Data Transfer",
+        "url": "https://console.cloud.google.com/transfer/appliance?project=PROJECT_ID"
     },
     {
+        "index": "1900",
         "name": "Bigtable",
-        "url": "https://console.cloud.google.com/bigtable?project=PROJECT_ID",
-        "index": "1900"
+        "url": "https://console.cloud.google.com/bigtable?project=PROJECT_ID"
     },
     {
-        "name": "Datastore / Entities",
-        "url": "https://console.cloud.google.com/datastore/entities?project=PROJECT_ID",
-        "index": "2001"
+        "index": "2001",
+        "name": "Entities - Datastore",
+        "url": "https://console.cloud.google.com/datastore/entities?project=PROJECT_ID"
     },
     {
-        "name": "Datastore / Dashboard",
-        "url": "https://console.cloud.google.com/datastore/stats?project=PROJECT_ID",
-        "index": "2002"
+        "index": "2002",
+        "name": "Dashboard - Datastore",
+        "url": "https://console.cloud.google.com/datastore/stats?project=PROJECT_ID"
     },
     {
-        "name": "Datastore / Indexes",
-        "url": "https://console.cloud.google.com/datastore/indexes?project=PROJECT_ID",
-        "index": "2003"
+        "index": "2003",
+        "name": "Indexes - Datastore",
+        "url": "https://console.cloud.google.com/datastore/indexes?project=PROJECT_ID"
     },
     {
-        "name": "Datastore / Admin",
-        "url": "https://console.cloud.google.com/datastore/settings?project=PROJECT_ID",
-        "index": "2004"
+        "index": "2004",
+        "name": "Admin - Datastore",
+        "url": "https://console.cloud.google.com/datastore/settings?project=PROJECT_ID"
     },
     {
-        "name": "Database Migration / Migration jobs",
-        "url": "https://console.cloud.google.com/dbmigration/migrations?project=PROJECT_ID",
-        "index": "2101"
+        "index": "2101",
+        "name": "Migration jobs - Database Migration",
+        "url": "https://console.cloud.google.com/dbmigration/migrations?project=PROJECT_ID"
     },
     {
-        "name": "Database Migration / Connection profiles",
-        "url": "https://console.cloud.google.com/dbmigration/connection-profiles?project=PROJECT_ID",
-        "index": "2102"
+        "index": "2102",
+        "name": "Connection profiles - Database Migration",
+        "url": "https://console.cloud.google.com/dbmigration/connection-profiles?project=PROJECT_ID"
     },
     {
-        "name": "Firestore / Data",
-        "url": "https://console.cloud.google.com/firestore/data?project=PROJECT_ID",
-        "index": "2201"
+        "index": "2201",
+        "name": "Data - Firestore",
+        "url": "https://console.cloud.google.com/firestore/data?project=PROJECT_ID"
     },
     {
-        "name": "Firestore / Indexes",
-        "url": "https://console.cloud.google.com/firestore/indexes/composite?project=PROJECT_ID",
-        "index": "2202"
+        "index": "2202",
+        "name": "Indexes - Firestore",
+        "url": "https://console.cloud.google.com/firestore/indexes/composite?project=PROJECT_ID"
     },
     {
-        "name": "Firestore / Import/Export",
-        "url": "https://console.cloud.google.com/firestore/import-export?project=PROJECT_ID",
-        "index": "2203"
+        "index": "2203",
+        "name": "Import/Export - Firestore",
+        "url": "https://console.cloud.google.com/firestore/import-export?project=PROJECT_ID"
     },
     {
-        "name": "Firestore / Usage",
-        "url": "https://console.cloud.google.com/firestore/usage?project=PROJECT_ID",
-        "index": "2204"
+        "index": "2204",
+        "name": "Usage - Firestore",
+        "url": "https://console.cloud.google.com/firestore/usage?project=PROJECT_ID"
     },
     {
-        "name": "Firestore / Security Rules",
-        "url": "https://console.cloud.google.com/firestore/rules?project=PROJECT_ID",
-        "index": "2205"
+        "index": "2205",
+        "name": "Security Rules - Firestore",
+        "url": "https://console.cloud.google.com/firestore/rules?project=PROJECT_ID"
     },
     {
-        "name": "Memorystore / Redis",
-        "url": "https://console.cloud.google.com/memorystore/redis/instances?project=PROJECT_ID",
-        "index": "2301"
+        "index": "2301",
+        "name": "Redis - Memorystore",
+        "url": "https://console.cloud.google.com/memorystore/redis/instances?project=PROJECT_ID"
     },
     {
-        "name": "Memorystore / Memcached",
-        "url": "https://console.cloud.google.com/memorystore/memcached/instances?project=PROJECT_ID",
-        "index": "2302"
+        "index": "2302",
+        "name": "Memcached - Memorystore",
+        "url": "https://console.cloud.google.com/memorystore/memcached/instances?project=PROJECT_ID"
     },
     {
+        "index": "2400",
         "name": "Spanner",
-        "url": "https://console.cloud.google.com/spanner?project=PROJECT_ID",
-        "index": "2400"
+        "url": "https://console.cloud.google.com/spanner?project=PROJECT_ID"
     },
     {
+        "index": "2500",
         "name": "SQL",
-        "url": "https://console.cloud.google.com/sql?project=PROJECT_ID",
-        "index": "2500"
+        "url": "https://console.cloud.google.com/sql?project=PROJECT_ID"
     },
     {
-        "name": "VPC network / VPC networks",
-        "url": "https://console.cloud.google.com/networking/networks/list?project=PROJECT_ID",
-        "index": "2601"
+        "index": "2601",
+        "name": "VPC networks - VPC network",
+        "url": "https://console.cloud.google.com/networking/networks/list?project=PROJECT_ID"
     },
     {
-        "name": "VPC network / External IP addresses",
-        "url": "https://console.cloud.google.com/networking/addresses/list?project=PROJECT_ID",
-        "index": "2602"
+        "index": "2602",
+        "name": "External IP addresses - VPC network",
+        "url": "https://console.cloud.google.com/networking/addresses/list?project=PROJECT_ID"
     },
     {
-        "name": "VPC network / Firewall",
-        "url": "https://console.cloud.google.com/networking/firewalls/list?project=PROJECT_ID",
-        "index": "2603"
+        "index": "2603",
+        "name": "Firewall - VPC network",
+        "url": "https://console.cloud.google.com/networking/firewalls/list?project=PROJECT_ID"
     },
     {
-        "name": "VPC network / Routes",
-        "url": "https://console.cloud.google.com/networking/routes/list?project=PROJECT_ID",
-        "index": "2604"
+        "index": "2604",
+        "name": "Routes - VPC network",
+        "url": "https://console.cloud.google.com/networking/routes/list?project=PROJECT_ID"
     },
     {
-        "name": "VPC network / VPC network peering",
-        "url": "https://console.cloud.google.com/networking/peering/list?project=PROJECT_ID",
-        "index": "2605"
+        "index": "2605",
+        "name": "VPC network peering - VPC network",
+        "url": "https://console.cloud.google.com/networking/peering/list?project=PROJECT_ID"
     },
     {
-        "name": "VPC network / Shared VPC",
-        "url": "https://console.cloud.google.com/networking/xpn?project=PROJECT_ID",
-        "index": "2606"
+        "index": "2606",
+        "name": "Shared VPC - VPC network",
+        "url": "https://console.cloud.google.com/networking/xpn?project=PROJECT_ID"
     },
     {
-        "name": "VPC network / Serverless VPC access",
-        "url": "https://console.cloud.google.com/networking/connectors?project=PROJECT_ID",
-        "index": "2607"
+        "index": "2607",
+        "name": "Serverless VPC access - VPC network",
+        "url": "https://console.cloud.google.com/networking/connectors?project=PROJECT_ID"
     },
     {
-        "name": "VPC network / Packet mirroring",
-        "url": "https://console.cloud.google.com/networking/packetmirroring?project=PROJECT_ID",
-        "index": "2608"
+        "index": "2608",
+        "name": "Packet mirroring - VPC network",
+        "url": "https://console.cloud.google.com/networking/packetmirroring?project=PROJECT_ID"
     },
     {
-        "name": "Network services / Load balancing",
-        "url": "https://console.cloud.google.com/net-services/loadbalancing/list?project=PROJECT_ID",
-        "index": "2701"
+        "index": "2701",
+        "name": "Load balancing - Network services",
+        "url": "https://console.cloud.google.com/net-services/loadbalancing/list?project=PROJECT_ID"
     },
     {
-        "name": "Network services / Cloud DNS",
-        "url": "https://console.cloud.google.com/net-services/dns?project=PROJECT_ID",
-        "index": "2702"
+        "index": "2702",
+        "name": "Cloud DNS - Network services",
+        "url": "https://console.cloud.google.com/net-services/dns?project=PROJECT_ID"
     },
     {
-        "name": "Network services / Cloud CDN",
-        "url": "https://console.cloud.google.com/net-services/cdn/list?project=PROJECT_ID",
-        "index": "2703"
+        "index": "2703",
+        "name": "Cloud CDN - Network services",
+        "url": "https://console.cloud.google.com/net-services/cdn/list?project=PROJECT_ID"
     },
     {
-        "name": "Network services / Cloud NAT",
-        "url": "https://console.cloud.google.com/net-services/nat/list?project=PROJECT_ID",
-        "index": "2704"
+        "index": "2704",
+        "name": "Cloud NAT - Network services",
+        "url": "https://console.cloud.google.com/net-services/nat/list?project=PROJECT_ID"
     },
     {
-        "name": "Network services / Traffic Director",
-        "url": "https://console.cloud.google.com/net-services/trafficdirector/services/list?project=PROJECT_ID",
-        "index": "2705"
+        "index": "2705",
+        "name": "Traffic Director - Network services",
+        "url": "https://console.cloud.google.com/net-services/trafficdirector/services/list?project=PROJECT_ID"
     },
     {
-        "name": "Network services / Service Directory",
-        "url": "https://console.cloud.google.com/net-services/service-directory/services/list?project=PROJECT_ID",
-        "index": "2706"
+        "index": "2706",
+        "name": "Service Directory - Network services",
+        "url": "https://console.cloud.google.com/net-services/service-directory/services/list?project=PROJECT_ID"
     },
     {
-        "name": "Network services / Cloud Domains",
-        "url": "https://console.cloud.google.com/net-services/domains/registrations/list?project=PROJECT_ID",
-        "index": "2707"
+        "index": "2707",
+        "name": "Cloud Domains - Network services",
+        "url": "https://console.cloud.google.com/net-services/domains/registrations/list?project=PROJECT_ID"
     },
     {
-        "name": "Network services / Private Service Connect",
-        "url": "https://console.cloud.google.com/net-services/psc/list?project=PROJECT_ID",
-        "index": "2708"
+        "index": "2708",
+        "name": "Private Service Connect - Network services",
+        "url": "https://console.cloud.google.com/net-services/psc/list?project=PROJECT_ID"
     },
     {
-        "name": "Hybrid Connectivity / VPN",
-        "url": "https://console.cloud.google.com/hybrid/vpn/list?project=PROJECT_ID",
-        "index": "2801"
+        "index": "2801",
+        "name": "VPN - Hybrid Connectivity",
+        "url": "https://console.cloud.google.com/hybrid/vpn/list?project=PROJECT_ID"
     },
     {
-        "name": "Hybrid Connectivity / Interconnect",
-        "url": "https://console.cloud.google.com/hybrid/interconnects/list?project=PROJECT_ID",
-        "index": "2802"
+        "index": "2802",
+        "name": "Interconnect - Hybrid Connectivity",
+        "url": "https://console.cloud.google.com/hybrid/interconnects/list?project=PROJECT_ID"
     },
     {
-        "name": "Hybrid Connectivity / Cloud Routers",
-        "url": "https://console.cloud.google.com/hybrid/routers/list?project=PROJECT_ID",
-        "index": "2803"
+        "index": "2803",
+        "name": "Cloud Routers - Hybrid Connectivity",
+        "url": "https://console.cloud.google.com/hybrid/routers/list?project=PROJECT_ID"
     },
     {
+        "index": "2900",
         "name": "Network Service Tiers",
-        "url": "https://console.cloud.google.com/net-tier?project=PROJECT_ID",
-        "index": "2900"
+        "url": "https://console.cloud.google.com/net-tier?project=PROJECT_ID"
     },
     {
-        "name": "Network Security / Cloud Armor",
-        "url": "https://console.cloud.google.com/net-security/securitypolicies/list?project=PROJECT_ID",
-        "index": "3001"
+        "index": "3001",
+        "name": "Cloud Armor - Network Security",
+        "url": "https://console.cloud.google.com/net-security/securitypolicies/list?project=PROJECT_ID"
     },
     {
-        "name": "Network Security / SSL policies",
-        "url": "https://console.cloud.google.com/net-security/sslpolicies/list?project=PROJECT_ID",
-        "index": "3002"
+        "index": "3002",
+        "name": "SSL policies - Network Security",
+        "url": "https://console.cloud.google.com/net-security/sslpolicies/list?project=PROJECT_ID"
     },
     {
-        "name": "Network Intelligence / Network Topology",
-        "url": "https://console.cloud.google.com/net-intelligence/topology?project=PROJECT_ID",
-        "index": "3101"
+        "index": "3101",
+        "name": "Network Topology - Network Intelligence",
+        "url": "https://console.cloud.google.com/net-intelligence/topology?project=PROJECT_ID"
     },
     {
-        "name": "Network Intelligence / Connectivity Tests",
-        "url": "https://console.cloud.google.com/net-intelligence/connectivity?project=PROJECT_ID",
-        "index": "3102"
+        "index": "3102",
+        "name": "Connectivity Tests - Network Intelligence",
+        "url": "https://console.cloud.google.com/net-intelligence/connectivity?project=PROJECT_ID"
     },
     {
-        "name": "Network Intelligence / Performance Dashboard",
-        "url": "https://console.cloud.google.com/net-intelligence/performance?project=PROJECT_ID",
-        "index": "3103"
+        "index": "3103",
+        "name": "Performance Dashboard - Network Intelligence",
+        "url": "https://console.cloud.google.com/net-intelligence/performance?project=PROJECT_ID"
     },
     {
-        "name": "Network Intelligence / Firewall Insights",
-        "url": "https://console.cloud.google.com/net-intelligence/firewalls?project=PROJECT_ID",
-        "index": "3104"
+        "index": "3104",
+        "name": "Firewall Insights - Network Intelligence",
+        "url": "https://console.cloud.google.com/net-intelligence/firewalls?project=PROJECT_ID"
     },
     {
-        "name": "Monitoring / Overview",
-        "url": "https://console.cloud.google.com/monitoring?project=PROJECT_ID",
-        "index": "3201"
+        "index": "3201",
+        "name": "Overview - Monitoring",
+        "url": "https://console.cloud.google.com/monitoring?project=PROJECT_ID"
     },
     {
-        "name": "Monitoring / Dashboards",
-        "url": "https://console.cloud.google.com/monitoring/dashboards?project=PROJECT_ID",
-        "index": "3202"
+        "index": "3202",
+        "name": "Dashboards - Monitoring",
+        "url": "https://console.cloud.google.com/monitoring/dashboards?project=PROJECT_ID"
     },
     {
-        "name": "Monitoring / Services",
-        "url": "https://console.cloud.google.com/monitoring/services?project=PROJECT_ID",
-        "index": "3203"
+        "index": "3203",
+        "name": "Services - Monitoring",
+        "url": "https://console.cloud.google.com/monitoring/services?project=PROJECT_ID"
     },
     {
-        "name": "Monitoring / Metrics explorer",
-        "url": "https://console.cloud.google.com/monitoring/metrics-explorer?project=PROJECT_ID",
-        "index": "3204"
+        "index": "3204",
+        "name": "Metrics explorer - Monitoring",
+        "url": "https://console.cloud.google.com/monitoring/metrics-explorer?project=PROJECT_ID"
     },
     {
-        "name": "Monitoring / Alerting",
-        "url": "https://console.cloud.google.com/monitoring/alerting?project=PROJECT_ID",
-        "index": "3205"
+        "index": "3205",
+        "name": "Alerting - Monitoring",
+        "url": "https://console.cloud.google.com/monitoring/alerting?project=PROJECT_ID"
     },
     {
-        "name": "Monitoring / Uptime checks",
-        "url": "https://console.cloud.google.com/monitoring/uptime?project=PROJECT_ID",
-        "index": "3206"
+        "index": "3206",
+        "name": "Uptime checks - Monitoring",
+        "url": "https://console.cloud.google.com/monitoring/uptime?project=PROJECT_ID"
     },
     {
-        "name": "Monitoring / Groups",
-        "url": "https://console.cloud.google.com/monitoring/groups?project=PROJECT_ID",
-        "index": "3207"
+        "index": "3207",
+        "name": "Groups - Monitoring",
+        "url": "https://console.cloud.google.com/monitoring/groups?project=PROJECT_ID"
     },
     {
-        "name": "Monitoring / Settings",
-        "url": "https://console.cloud.google.com/monitoring/settings?project=PROJECT_ID",
-        "index": "3208"
+        "index": "3208",
+        "name": "Settings - Monitoring",
+        "url": "https://console.cloud.google.com/monitoring/settings?project=PROJECT_ID"
     },
     {
+        "index": "3300",
         "name": "Debugger",
-        "url": "https://console.cloud.google.com/debug?project=PROJECT_ID",
-        "index": "3300"
+        "url": "https://console.cloud.google.com/debug?project=PROJECT_ID"
     },
     {
+        "index": "3400",
         "name": "Error Reporting",
-        "url": "https://console.cloud.google.com/errors?project=PROJECT_ID",
-        "index": "3400"
+        "url": "https://console.cloud.google.com/errors?project=PROJECT_ID"
     },
     {
-        "name": "Logging / Logs Explorer",
-        "url": "https://console.cloud.google.com/logs/query?project=PROJECT_ID",
-        "index": "3501"
+        "index": "3501",
+        "name": "Logs Explorer - Logging",
+        "url": "https://console.cloud.google.com/logs/query?project=PROJECT_ID"
     },
     {
-        "name": "Logging / Logs Dashboard",
-        "url": "https://console.cloud.google.com/logs/dashboard?project=PROJECT_ID",
-        "index": "3502"
+        "index": "3502",
+        "name": "Logs Dashboard - Logging",
+        "url": "https://console.cloud.google.com/logs/dashboard?project=PROJECT_ID"
     },
     {
-        "name": "Logging / Logs-based Metrics",
-        "url": "https://console.cloud.google.com/logs/metrics?project=PROJECT_ID",
-        "index": "3503"
+        "index": "3503",
+        "name": "Logs-based Metrics - Logging",
+        "url": "https://console.cloud.google.com/logs/metrics?project=PROJECT_ID"
     },
     {
-        "name": "Logging / Logs Router",
-        "url": "https://console.cloud.google.com/logs/router?project=PROJECT_ID",
-        "index": "3504"
+        "index": "3504",
+        "name": "Logs Router - Logging",
+        "url": "https://console.cloud.google.com/logs/router?project=PROJECT_ID"
     },
     {
-        "name": "Logging / Logs Storage",
-        "url": "https://console.cloud.google.com/logs/storage?project=PROJECT_ID",
-        "index": "3505"
+        "index": "3505",
+        "name": "Logs Storage - Logging",
+        "url": "https://console.cloud.google.com/logs/storage?project=PROJECT_ID"
     },
     {
+        "index": "3600",
         "name": "Profiler",
-        "url": "https://console.cloud.google.com/profiler?project=PROJECT_ID",
-        "index": "3600"
+        "url": "https://console.cloud.google.com/profiler?project=PROJECT_ID"
     },
     {
-        "name": "Trace / Overview",
-        "url": "https://console.cloud.google.com/traces/overview?project=PROJECT_ID",
-        "index": "3701"
+        "index": "3701",
+        "name": "Overview - Trace",
+        "url": "https://console.cloud.google.com/traces/overview?project=PROJECT_ID"
     },
     {
-        "name": "Trace / Trace list",
-        "url": "https://console.cloud.google.com/traces/list?project=PROJECT_ID",
-        "index": "3702"
+        "index": "3702",
+        "name": "Trace list - Trace",
+        "url": "https://console.cloud.google.com/traces/list?project=PROJECT_ID"
     },
     {
-        "name": "Trace / Analysis reports",
-        "url": "https://console.cloud.google.com/traces/tasks?project=PROJECT_ID",
-        "index": "3703"
+        "index": "3703",
+        "name": "Analysis reports - Trace",
+        "url": "https://console.cloud.google.com/traces/tasks?project=PROJECT_ID"
     },
     {
-        "name": "Cloud Build / Dashboard",
-        "url": "https://console.cloud.google.com/cloud-build/dashboard?project=PROJECT_ID",
-        "index": "3801"
+        "index": "3801",
+        "name": "Dashboard - Cloud Build",
+        "url": "https://console.cloud.google.com/cloud-build/dashboard?project=PROJECT_ID"
     },
     {
-        "name": "Cloud Build / History",
-        "url": "https://console.cloud.google.com/cloud-build/builds?project=PROJECT_ID",
-        "index": "3802"
+        "index": "3802",
+        "name": "History - Cloud Build",
+        "url": "https://console.cloud.google.com/cloud-build/builds?project=PROJECT_ID"
     },
     {
-        "name": "Cloud Build / Triggers",
-        "url": "https://console.cloud.google.com/cloud-build/triggers?project=PROJECT_ID",
-        "index": "3803"
+        "index": "3803",
+        "name": "Triggers - Cloud Build",
+        "url": "https://console.cloud.google.com/cloud-build/triggers?project=PROJECT_ID"
     },
     {
-        "name": "Cloud Build / Settings",
-        "url": "https://console.cloud.google.com/cloud-build/settings?project=PROJECT_ID",
-        "index": "3804"
+        "index": "3804",
+        "name": "Settings - Cloud Build",
+        "url": "https://console.cloud.google.com/cloud-build/settings?project=PROJECT_ID"
     },
     {
+        "index": "3900",
         "name": "Cloud Tasks",
-        "url": "https://console.cloud.google.com/cloudtasks?project=PROJECT_ID",
-        "index": "3900"
+        "url": "https://console.cloud.google.com/cloudtasks?project=PROJECT_ID"
     },
     {
-        "name": "Container Registry / Images",
-        "url": "https://console.cloud.google.com/gcr?project=PROJECT_ID",
-        "index": "4001"
+        "index": "4001",
+        "name": "Images - Container Registry",
+        "url": "https://console.cloud.google.com/gcr?project=PROJECT_ID"
     },
     {
-        "name": "Container Registry / Settings",
-        "url": "https://console.cloud.google.com/gcr/settings?project=PROJECT_ID",
-        "index": "4002"
+        "index": "4002",
+        "name": "Settings - Container Registry",
+        "url": "https://console.cloud.google.com/gcr/settings?project=PROJECT_ID"
     },
     {
-        "name": "Artifact Registry / Repositories",
-        "url": "https://console.cloud.google.com/artifacts?project=PROJECT_ID",
-        "index": "4101"
+        "index": "4101",
+        "name": "Repositories - Artifact Registry",
+        "url": "https://console.cloud.google.com/artifacts?project=PROJECT_ID"
     },
     {
-        "name": "Artifact Registry / Settings",
-        "url": "https://console.cloud.google.com/artifacts/settings?project=PROJECT_ID",
-        "index": "4102"
+        "index": "4102",
+        "name": "Settings - Artifact Registry",
+        "url": "https://console.cloud.google.com/artifacts/settings?project=PROJECT_ID"
     },
     {
+        "index": "4200",
         "name": "Cloud Scheduler",
-        "url": "https://console.cloud.google.com/cloudscheduler?project=PROJECT_ID",
-        "index": "4200"
+        "url": "https://console.cloud.google.com/cloudscheduler?project=PROJECT_ID"
     },
     {
-        "name": "Deployment Manager / Deployments",
-        "url": "https://console.cloud.google.com/dm/deployments?project=PROJECT_ID",
-        "index": "4301"
+        "index": "4301",
+        "name": "Deployments - Deployment Manager",
+        "url": "https://console.cloud.google.com/dm/deployments?project=PROJECT_ID"
     },
     {
-        "name": "Deployment Manager / Type registry",
-        "url": "https://console.cloud.google.com/dm/types?project=PROJECT_ID",
-        "index": "4302"
+        "index": "4302",
+        "name": "Type registry - Deployment Manager",
+        "url": "https://console.cloud.google.com/dm/types?project=PROJECT_ID"
     },
     {
+        "index": "4400",
         "name": "API Gateway",
-        "url": "https://console.cloud.google.com/api-gateway?project=PROJECT_ID",
-        "index": "4400"
+        "url": "https://console.cloud.google.com/api-gateway?project=PROJECT_ID"
     },
     {
-        "name": "Endpoints / Services",
-        "url": "https://console.cloud.google.com/endpoints/v2?project=PROJECT_ID",
-        "index": "4501"
+        "index": "4501",
+        "name": "Services - Endpoints",
+        "url": "https://console.cloud.google.com/endpoints/v2?project=PROJECT_ID"
     },
     {
-        "name": "Endpoints / Developer Portal",
-        "url": "https://console.cloud.google.com/endpoints/v2/portal?project=PROJECT_ID",
-        "index": "4502"
+        "index": "4502",
+        "name": "Developer Portal - Endpoints",
+        "url": "https://console.cloud.google.com/endpoints/v2/portal?project=PROJECT_ID"
     },
     {
-        "name": "Identity Platform / Providers",
-        "url": "https://console.cloud.google.com/customer-identity/providers?project=PROJECT_ID",
-        "index": "4601"
+        "index": "4601",
+        "name": "Providers - Identity Platform",
+        "url": "https://console.cloud.google.com/customer-identity/providers?project=PROJECT_ID"
     },
     {
-        "name": "Identity Platform / MFA NEW",
-        "url": "https://console.cloud.google.com/customer-identity/mfa?project=PROJECT_ID",
-        "index": "4602"
+        "index": "4602",
+        "name": "MFA NEW - Identity Platform",
+        "url": "https://console.cloud.google.com/customer-identity/mfa?project=PROJECT_ID"
     },
     {
-        "name": "Identity Platform / Users",
-        "url": "https://console.cloud.google.com/customer-identity/users?project=PROJECT_ID",
-        "index": "4603"
+        "index": "4603",
+        "name": "Users - Identity Platform",
+        "url": "https://console.cloud.google.com/customer-identity/users?project=PROJECT_ID"
     },
     {
-        "name": "Identity Platform / Settings",
-        "url": "https://console.cloud.google.com/customer-identity/settings?project=PROJECT_ID",
-        "index": "4604"
+        "index": "4604",
+        "name": "Settings - Identity Platform",
+        "url": "https://console.cloud.google.com/customer-identity/settings?project=PROJECT_ID"
     },
     {
-        "name": "Identity Platform / Tenants",
-        "url": "https://console.cloud.google.com/customer-identity/tenants?project=PROJECT_ID",
-        "index": "4605"
+        "index": "4605",
+        "name": "Tenants - Identity Platform",
+        "url": "https://console.cloud.google.com/customer-identity/tenants?project=PROJECT_ID"
     },
     {
+        "index": "4700",
         "name": "Source Repositories",
-        "url": "https://source.cloud.google.com/PROJECT_ID?project=PROJECT_ID",
-        "index": "4700"
+        "url": "https://source.cloud.google.com/PROJECT_ID?project=PROJECT_ID"
     },
     {
+        "index": "4800",
         "name": "Workflows",
-        "url": "https://console.cloud.google.com/workflows?project=PROJECT_ID",
-        "index": "4800"
+        "url": "https://console.cloud.google.com/workflows?project=PROJECT_ID"
     },
     {
+        "index": "4900",
         "name": "Private Catalog",
-        "url": "https://console.cloud.google.com/catalog?project=PROJECT_ID",
-        "index": "4900"
+        "url": "https://console.cloud.google.com/catalog?project=PROJECT_ID"
     },
     {
+        "index": "5000",
         "name": "Composer",
-        "url": "https://console.cloud.google.com/composer?project=PROJECT_ID",
-        "index": "5000"
+        "url": "https://console.cloud.google.com/composer?project=PROJECT_ID"
     },
     {
-        "name": "Dataproc / Clusters",
-        "url": "https://console.cloud.google.com/dataproc/clusters?project=PROJECT_ID",
-        "index": "5101"
+        "index": "5101",
+        "name": "Clusters - Dataproc",
+        "url": "https://console.cloud.google.com/dataproc/clusters?project=PROJECT_ID"
     },
     {
-        "name": "Dataproc / Jobs",
-        "url": "https://console.cloud.google.com/dataproc/jobs?project=PROJECT_ID",
-        "index": "5102"
+        "index": "5102",
+        "name": "Jobs - Dataproc",
+        "url": "https://console.cloud.google.com/dataproc/jobs?project=PROJECT_ID"
     },
     {
-        "name": "Dataproc / Workflows",
-        "url": "https://console.cloud.google.com/dataproc/workflows?project=PROJECT_ID",
-        "index": "5103"
+        "index": "5103",
+        "name": "Workflows - Dataproc",
+        "url": "https://console.cloud.google.com/dataproc/workflows?project=PROJECT_ID"
     },
     {
-        "name": "Dataproc / Autoscaling policies",
-        "url": "https://console.cloud.google.com/dataproc/autoscalingPolicies?project=PROJECT_ID",
-        "index": "5104"
+        "index": "5104",
+        "name": "Autoscaling policies - Dataproc",
+        "url": "https://console.cloud.google.com/dataproc/autoscalingPolicies?project=PROJECT_ID"
     },
     {
-        "name": "Dataproc / Component exchange",
-        "url": "https://console.cloud.google.com/dataproc/componentexchange?project=PROJECT_ID",
-        "index": "5105"
+        "index": "5105",
+        "name": "Component exchange - Dataproc",
+        "url": "https://console.cloud.google.com/dataproc/componentexchange?project=PROJECT_ID"
     },
     {
-        "name": "Dataproc / Notebooks",
-        "url": "https://console.cloud.google.com/dataproc/notebooks?project=PROJECT_ID",
-        "index": "5106"
+        "index": "5106",
+        "name": "Notebooks - Dataproc",
+        "url": "https://console.cloud.google.com/dataproc/notebooks?project=PROJECT_ID"
     },
     {
-        "name": "Pub/Sub / Topics",
-        "url": "https://console.cloud.google.com/cloudpubsub/topic?project=PROJECT_ID",
-        "index": "5201"
+        "index": "5201",
+        "name": "Topics - Pub/Sub",
+        "url": "https://console.cloud.google.com/cloudpubsub/topic?project=PROJECT_ID"
     },
     {
-        "name": "Pub/Sub / Subscriptions",
-        "url": "https://console.cloud.google.com/cloudpubsub/subscription?project=PROJECT_ID",
-        "index": "5202"
+        "index": "5202",
+        "name": "Subscriptions - Pub/Sub",
+        "url": "https://console.cloud.google.com/cloudpubsub/subscription?project=PROJECT_ID"
     },
     {
-        "name": "Pub/Sub / Snapshots",
-        "url": "https://console.cloud.google.com/cloudpubsub/snapshot?project=PROJECT_ID",
-        "index": "5203"
+        "index": "5203",
+        "name": "Snapshots - Pub/Sub",
+        "url": "https://console.cloud.google.com/cloudpubsub/snapshot?project=PROJECT_ID"
     },
     {
-        "name": "Pub/Sub / Lite Topics",
-        "url": "https://console.cloud.google.com/cloudpubsub/liteTopic?project=PROJECT_ID",
-        "index": "5204"
+        "index": "5204",
+        "name": "Lite Topics - Pub/Sub",
+        "url": "https://console.cloud.google.com/cloudpubsub/liteTopic?project=PROJECT_ID"
     },
     {
-        "name": "Pub/Sub / Lite Subscriptions",
-        "url": "https://console.cloud.google.com/cloudpubsub/liteSubscription?project=PROJECT_ID",
-        "index": "5205"
+        "index": "5205",
+        "name": "Lite Subscriptions - Pub/Sub",
+        "url": "https://console.cloud.google.com/cloudpubsub/liteSubscription?project=PROJECT_ID"
     },
     {
-        "name": "Dataflow / Jobs",
-        "url": "https://console.cloud.google.com/dataflow/jobs?project=PROJECT_ID",
-        "index": "5301"
+        "index": "5301",
+        "name": "Jobs - Dataflow",
+        "url": "https://console.cloud.google.com/dataflow/jobs?project=PROJECT_ID"
     },
     {
-        "name": "Dataflow / Notebooks",
-        "url": "https://console.cloud.google.com/dataflow/notebooks?project=PROJECT_ID",
-        "index": "5302"
+        "index": "5302",
+        "name": "Notebooks - Dataflow",
+        "url": "https://console.cloud.google.com/dataflow/notebooks?project=PROJECT_ID"
     },
     {
+        "index": "5400",
         "name": "IoT Core",
-        "url": "https://console.cloud.google.com/iot?project=PROJECT_ID",
-        "index": "5400"
+        "url": "https://console.cloud.google.com/iot?project=PROJECT_ID"
     },
     {
+        "index": "5500",
         "name": "BigQuery",
-        "url": "https://console.cloud.google.com/bigquery?project=PROJECT_ID",
-        "index": "5500"
+        "url": "https://console.cloud.google.com/bigquery?project=PROJECT_ID"
     },
     {
+        "index": "5600",
         "name": "Looker",
-        "url": "https://console.cloud.google.com/looker?project=PROJECT_ID",
-        "index": "5600"
+        "url": "https://console.cloud.google.com/looker?project=PROJECT_ID"
     },
     {
+        "index": "5700",
         "name": "Data Catalog",
-        "url": "https://console.cloud.google.com/datacatalog?project=PROJECT_ID",
-        "index": "5700"
+        "url": "https://console.cloud.google.com/datacatalog?project=PROJECT_ID"
     },
     {
+        "index": "5800",
         "name": "Data Fusion",
-        "url": "https://console.cloud.google.com/data-fusion?project=PROJECT_ID",
-        "index": "5800"
+        "url": "https://console.cloud.google.com/data-fusion?project=PROJECT_ID"
     },
     {
+        "index": "5900",
         "name": "Financial Services",
-        "url": "https://console.cloud.google.com/financial_services?project=PROJECT_ID",
-        "index": "5900"
+        "url": "https://console.cloud.google.com/financial_services?project=PROJECT_ID"
     },
     {
-        "name": "Healthcare / Browser",
-        "url": "https://console.cloud.google.com/healthcare/browser?project=PROJECT_ID",
-        "index": "6001"
+        "index": "6001",
+        "name": "Browser - Healthcare",
+        "url": "https://console.cloud.google.com/healthcare/browser?project=PROJECT_ID"
     },
     {
-        "name": "Healthcare / Marketplace",
-        "url": "https://console.cloud.google.com/healthcare/marketplace?project=PROJECT_ID",
-        "index": "6002"
+        "index": "6002",
+        "name": "Marketplace - Healthcare",
+        "url": "https://console.cloud.google.com/healthcare/marketplace?project=PROJECT_ID"
     },
     {
-        "name": "Life Sciences / Pipelines",
-        "url": "https://console.cloud.google.com/lifesciences/pipelines?project=PROJECT_ID",
-        "index": "6101"
+        "index": "6101",
+        "name": "Pipelines - Life Sciences",
+        "url": "https://console.cloud.google.com/lifesciences/pipelines?project=PROJECT_ID"
     },
     {
-        "name": "Life Sciences / Pipelines (Legacy Genomics)",
-        "url": "https://console.cloud.google.com/lifesciences/genomics_pipelines?project=PROJECT_ID",
-        "index": "6102"
+        "index": "6102",
+        "name": "Pipelines (Legacy Genomics) - Life Sciences",
+        "url": "https://console.cloud.google.com/lifesciences/genomics_pipelines?project=PROJECT_ID"
     },
     {
+        "index": "6200",
         "name": "Dataprep",
-        "url": "https://console.cloud.google.com/dataprep?project=PROJECT_ID",
-        "index": "6200"
+        "url": "https://console.cloud.google.com/dataprep?project=PROJECT_ID"
     },
     {
-        "name": "AI Platform (Unified) / Dashboard",
-        "url": "https://console.cloud.google.com/ai/platform?project=PROJECT_ID",
-        "index": "6301"
+        "index": "6301",
+        "name": "Dashboard - AI Platform (Unified)",
+        "url": "https://console.cloud.google.com/ai/platform?project=PROJECT_ID"
     },
     {
-        "name": "AI Platform (Unified) / Datasets",
-        "url": "https://console.cloud.google.com/ai/platform/datasets?project=PROJECT_ID",
-        "index": "6302"
+        "index": "6302",
+        "name": "Datasets - AI Platform (Unified)",
+        "url": "https://console.cloud.google.com/ai/platform/datasets?project=PROJECT_ID"
     },
     {
-        "name": "AI Platform (Unified) / Labeling tasks",
-        "url": "https://console.cloud.google.com/ai/platform/labeling-tasks?project=PROJECT_ID",
-        "index": "6303"
+        "index": "6303",
+        "name": "Labeling tasks - AI Platform (Unified)",
+        "url": "https://console.cloud.google.com/ai/platform/labeling-tasks?project=PROJECT_ID"
     },
     {
-        "name": "AI Platform (Unified) / Notebooks",
-        "url": "https://console.cloud.google.com/ai/platform/notebooks?project=PROJECT_ID",
-        "index": "6304"
+        "index": "6304",
+        "name": "Notebooks - AI Platform (Unified)",
+        "url": "https://console.cloud.google.com/ai/platform/notebooks?project=PROJECT_ID"
     },
     {
-        "name": "AI Platform (Unified) / Training",
-        "url": "https://console.cloud.google.com/ai/platform/training-pipelines?project=PROJECT_ID",
-        "index": "6305"
+        "index": "6305",
+        "name": "Training - AI Platform (Unified)",
+        "url": "https://console.cloud.google.com/ai/platform/training-pipelines?project=PROJECT_ID"
     },
     {
-        "name": "AI Platform (Unified) / Models",
-        "url": "https://console.cloud.google.com/ai/platform/models?project=PROJECT_ID",
-        "index": "6306"
+        "index": "6306",
+        "name": "Models - AI Platform (Unified)",
+        "url": "https://console.cloud.google.com/ai/platform/models?project=PROJECT_ID"
     },
     {
-        "name": "AI Platform (Unified) / Endpoints",
-        "url": "https://console.cloud.google.com/ai/platform/endpoints?project=PROJECT_ID",
-        "index": "6307"
+        "index": "6307",
+        "name": "Endpoints - AI Platform (Unified)",
+        "url": "https://console.cloud.google.com/ai/platform/endpoints?project=PROJECT_ID"
     },
     {
-        "name": "AI Platform (Unified) / Batch predictions",
-        "url": "https://console.cloud.google.com/ai/platform/batch-predictions?project=PROJECT_ID",
-        "index": "6308"
+        "index": "6308",
+        "name": "Batch predictions - AI Platform (Unified)",
+        "url": "https://console.cloud.google.com/ai/platform/batch-predictions?project=PROJECT_ID"
     },
     {
-        "name": "AI Platform / Dashboard",
-        "url": "https://console.cloud.google.com/ai-platform/dashboard?project=PROJECT_ID",
-        "index": "6401"
+        "index": "6401",
+        "name": "Dashboard - AI Platform",
+        "url": "https://console.cloud.google.com/ai-platform/dashboard?project=PROJECT_ID"
     },
     {
-        "name": "AI Platform / AI Hub",
-        "url": "https://console.cloud.google.com/ai-platform/aihub-redirect?project=PROJECT_ID",
-        "index": "6402"
+        "index": "6402",
+        "name": "AI Hub - AI Platform",
+        "url": "https://console.cloud.google.com/ai-platform/aihub-redirect?project=PROJECT_ID"
     },
     {
-        "name": "AI Platform / Data Labeling",
-        "url": "https://console.cloud.google.com/data-labeling?project=PROJECT_ID",
-        "index": "6403"
+        "index": "6403",
+        "name": "Data Labeling - AI Platform",
+        "url": "https://console.cloud.google.com/data-labeling?project=PROJECT_ID"
     },
     {
-        "name": "AI Platform / Notebooks",
-        "url": "https://console.cloud.google.com/ai-platform/notebooks?project=PROJECT_ID",
-        "index": "6404"
+        "index": "6404",
+        "name": "Notebooks - AI Platform",
+        "url": "https://console.cloud.google.com/ai-platform/notebooks?project=PROJECT_ID"
     },
     {
-        "name": "AI Platform / Pipelines",
-        "url": "https://console.cloud.google.com/ai-platform/pipelines?project=PROJECT_ID",
-        "index": "6405"
+        "index": "6405",
+        "name": "Pipelines - AI Platform",
+        "url": "https://console.cloud.google.com/ai-platform/pipelines?project=PROJECT_ID"
     },
     {
-        "name": "AI Platform / Jobs",
-        "url": "https://console.cloud.google.com/ai-platform/jobs?project=PROJECT_ID",
-        "index": "6406"
+        "index": "6406",
+        "name": "Jobs - AI Platform",
+        "url": "https://console.cloud.google.com/ai-platform/jobs?project=PROJECT_ID"
     },
     {
-        "name": "AI Platform / Models",
-        "url": "https://console.cloud.google.com/ai-platform/models?project=PROJECT_ID",
-        "index": "6407"
+        "index": "6407",
+        "name": "Models - AI Platform",
+        "url": "https://console.cloud.google.com/ai-platform/models?project=PROJECT_ID"
     },
     {
-        "name": "Data Labeling / Datasets",
-        "url": "https://console.cloud.google.com/data-labeling/datasets?project=PROJECT_ID",
-        "index": "6501"
+        "index": "6501",
+        "name": "Datasets - Data Labeling",
+        "url": "https://console.cloud.google.com/data-labeling/datasets?project=PROJECT_ID"
     },
     {
-        "name": "Data Labeling / Label Sets",
-        "url": "https://console.cloud.google.com/data-labeling/annotation-spec-sets?project=PROJECT_ID",
-        "index": "6502"
+        "index": "6502",
+        "name": "Label Sets - Data Labeling",
+        "url": "https://console.cloud.google.com/data-labeling/annotation-spec-sets?project=PROJECT_ID"
     },
     {
-        "name": "Data Labeling / Instructions",
-        "url": "https://console.cloud.google.com/data-labeling/instructions?project=PROJECT_ID",
-        "index": "6503"
+        "index": "6503",
+        "name": "Instructions - Data Labeling",
+        "url": "https://console.cloud.google.com/data-labeling/instructions?project=PROJECT_ID"
     },
     {
-        "name": "Document AI / Overview",
-        "url": "https://console.cloud.google.com/ai/document-ai?project=PROJECT_ID",
-        "index": "6601"
+        "index": "6601",
+        "name": "Overview - Document AI",
+        "url": "https://console.cloud.google.com/ai/document-ai?project=PROJECT_ID"
     },
     {
-        "name": "Document AI / Processors",
-        "url": "https://console.cloud.google.com/ai/document-ai/processors?project=PROJECT_ID",
-        "index": "6602"
+        "index": "6602",
+        "name": "Processors - Document AI",
+        "url": "https://console.cloud.google.com/ai/document-ai/processors?project=PROJECT_ID"
     },
     {
+        "index": "6700",
         "name": "Natural Language",
-        "url": "https://console.cloud.google.com/natural-language?project=PROJECT_ID",
-        "index": "6700"
+        "url": "https://console.cloud.google.com/natural-language?project=PROJECT_ID"
     },
     {
-        "name": "Recommendations AI / Dashboard",
-        "url": "https://console.cloud.google.com/recommendation/catalogs/undefined/dashboard?project=PROJECT_ID",
-        "index": "6801"
+        "index": "6801",
+        "name": "Dashboard - Recommendations AI",
+        "url": "https://console.cloud.google.com/recommendation/catalogs/undefined/dashboard?project=PROJECT_ID"
     },
     {
-        "name": "Recommendations AI / Data",
-        "url": "https://console.cloud.google.com/recommendation/catalogs/undefined/data?project=PROJECT_ID",
-        "index": "6802"
+        "index": "6802",
+        "name": "Data - Recommendations AI",
+        "url": "https://console.cloud.google.com/recommendation/catalogs/undefined/data?project=PROJECT_ID"
     },
     {
-        "name": "Recommendations AI / Errors",
-        "url": "https://console.cloud.google.com/recommendation/catalogs/undefined/errors?project=PROJECT_ID",
-        "index": "6803"
+        "index": "6803",
+        "name": "Errors - Recommendations AI",
+        "url": "https://console.cloud.google.com/recommendation/catalogs/undefined/errors?project=PROJECT_ID"
     },
     {
-        "name": "Recommendations AI / Models",
-        "url": "https://console.cloud.google.com/recommendation/catalogs/undefined/models?project=PROJECT_ID",
-        "index": "6804"
+        "index": "6804",
+        "name": "Models - Recommendations AI",
+        "url": "https://console.cloud.google.com/recommendation/catalogs/undefined/models?project=PROJECT_ID"
     },
     {
-        "name": "Recommendations AI / Placements",
-        "url": "https://console.cloud.google.com/recommendation/catalogs/undefined/placements?project=PROJECT_ID",
-        "index": "6805"
+        "index": "6805",
+        "name": "Placements - Recommendations AI",
+        "url": "https://console.cloud.google.com/recommendation/catalogs/undefined/placements?project=PROJECT_ID"
     },
     {
-        "name": "Recommendations AI / Business insights",
-        "url": "https://console.cloud.google.com/recommendation/catalogs/undefined/business?project=PROJECT_ID",
-        "index": "6806"
+        "index": "6806",
+        "name": "Business insights - Recommendations AI",
+        "url": "https://console.cloud.google.com/recommendation/catalogs/undefined/business?project=PROJECT_ID"
     },
     {
-        "name": "Tables / Datasets",
-        "url": "https://console.cloud.google.com/automl-tables/datasets?project=PROJECT_ID",
-        "index": "6901"
+        "index": "6901",
+        "name": "Datasets - Tables",
+        "url": "https://console.cloud.google.com/automl-tables/datasets?project=PROJECT_ID"
     },
     {
-        "name": "Tables / Models",
-        "url": "https://console.cloud.google.com/automl-tables/models?project=PROJECT_ID",
-        "index": "6902"
+        "index": "6902",
+        "name": "Models - Tables",
+        "url": "https://console.cloud.google.com/automl-tables/models?project=PROJECT_ID"
     },
     {
-        "name": "Talent Solution / Overview",
-        "url": "https://console.cloud.google.com/talent-solution/overview?project=PROJECT_ID",
-        "index": "7001"
+        "index": "7001",
+        "name": "Overview - Talent Solution",
+        "url": "https://console.cloud.google.com/talent-solution/overview?project=PROJECT_ID"
     },
     {
-        "name": "Talent Solution / Client event livestream",
-        "url": "https://console.cloud.google.com/talent-solution/behavioral-livestream?project=PROJECT_ID",
-        "index": "7002"
+        "index": "7002",
+        "name": "Client event livestream - Talent Solution",
+        "url": "https://console.cloud.google.com/talent-solution/behavioral-livestream?project=PROJECT_ID"
     },
     {
-        "name": "Talent Solution / Client event search",
-        "url": "https://console.cloud.google.com/talent-solution/behavioral-search?project=PROJECT_ID",
-        "index": "7003"
+        "index": "7003",
+        "name": "Client event search - Talent Solution",
+        "url": "https://console.cloud.google.com/talent-solution/behavioral-search?project=PROJECT_ID"
     },
     {
-        "name": "Talent Solution / Job export",
-        "url": "https://console.cloud.google.com/talent-solution/export-jobs?project=PROJECT_ID",
-        "index": "7004"
+        "index": "7004",
+        "name": "Job export - Talent Solution",
+        "url": "https://console.cloud.google.com/talent-solution/export-jobs?project=PROJECT_ID"
     },
     {
-        "name": "Talent Solution / Service accounts connections",
-        "url": "https://console.cloud.google.com/talent-solution/service-account-connections?project=PROJECT_ID",
-        "index": "7005"
+        "index": "7005",
+        "name": "Service accounts connections - Talent Solution",
+        "url": "https://console.cloud.google.com/talent-solution/service-account-connections?project=PROJECT_ID"
     },
     {
-        "name": "Translation / Dashboard",
-        "url": "https://console.cloud.google.com/translation/dashboard?project=PROJECT_ID",
-        "index": "7101"
+        "index": "7101",
+        "name": "Dashboard - Translation",
+        "url": "https://console.cloud.google.com/translation/dashboard?project=PROJECT_ID"
     },
     {
-        "name": "Translation / Datasets",
-        "url": "https://console.cloud.google.com/translation/datasets?project=PROJECT_ID",
-        "index": "7102"
+        "index": "7102",
+        "name": "Datasets - Translation",
+        "url": "https://console.cloud.google.com/translation/datasets?project=PROJECT_ID"
     },
     {
-        "name": "Translation / Models",
-        "url": "https://console.cloud.google.com/translation/models?project=PROJECT_ID",
-        "index": "7103"
+        "index": "7103",
+        "name": "Models - Translation",
+        "url": "https://console.cloud.google.com/translation/models?project=PROJECT_ID"
     },
     {
-        "name": "Vision / Dashboard",
-        "url": "https://console.cloud.google.com/vision/dashboard?project=PROJECT_ID",
-        "index": "7201"
+        "index": "7201",
+        "name": "Dashboard - Vision",
+        "url": "https://console.cloud.google.com/vision/dashboard?project=PROJECT_ID"
     },
     {
-        "name": "Vision / Datasets",
-        "url": "https://console.cloud.google.com/vision/datasets?project=PROJECT_ID",
-        "index": "7202"
+        "index": "7202",
+        "name": "Datasets - Vision",
+        "url": "https://console.cloud.google.com/vision/datasets?project=PROJECT_ID"
     },
     {
-        "name": "Vision / Models",
-        "url": "https://console.cloud.google.com/vision/models?project=PROJECT_ID",
-        "index": "7203"
+        "index": "7203",
+        "name": "Models - Vision",
+        "url": "https://console.cloud.google.com/vision/models?project=PROJECT_ID"
     },
     {
+        "index": "7300",
         "name": "Video Intelligence",
-        "url": "https://console.cloud.google.com/video-intelligence?project=PROJECT_ID",
-        "index": "7300"
+        "url": "https://console.cloud.google.com/video-intelligence?project=PROJECT_ID"
     },
     {
-        "name": "Game Servers / Realms & Clusters",
-        "url": "https://console.cloud.google.com/game/realms?project=PROJECT_ID",
-        "index": "7401"
+        "index": "7401",
+        "name": "Realms & Clusters - Game Servers",
+        "url": "https://console.cloud.google.com/game/realms?project=PROJECT_ID"
     },
     {
-        "name": "Game Servers / Game Server Deployments",
-        "url": "https://console.cloud.google.com/game/gameserverdeployments?project=PROJECT_ID",
-        "index": "7402"
+        "index": "7402",
+        "name": "Game Server Deployments - Game Servers",
+        "url": "https://console.cloud.google.com/game/gameserverdeployments?project=PROJECT_ID"
     },
     {
-        "name": "Game Servers / Monitoring",
-        "url": "https://console.cloud.google.com/game/monitoring?project=PROJECT_ID",
-        "index": "7403"
+        "index": "7403",
+        "name": "Monitoring - Game Servers",
+        "url": "https://console.cloud.google.com/game/monitoring?project=PROJECT_ID"
     },
     {
-        "name": "Google Maps / Overview",
-        "url": "https://console.cloud.google.com/google/maps-apis/overview?project=PROJECT_ID",
-        "index": "7501"
+        "index": "7501",
+        "name": "Overview - Google Maps Platform",
+        "url": "https://console.cloud.google.com/google/maps-apis/overview?project=PROJECT_ID"
     },
     {
-        "name": "Google Maps / APIs",
-        "url": "https://console.cloud.google.com/google/maps-apis/api-list?project=PROJECT_ID",
-        "index": "7502"
+        "index": "7502",
+        "name": "APIs - Google Maps Platform",
+        "url": "https://console.cloud.google.com/google/maps-apis/api-list?project=PROJECT_ID"
     },
     {
-        "name": "Google Maps / Metrics",
-        "url": "https://console.cloud.google.com/google/maps-apis/metrics?project=PROJECT_ID",
-        "index": "7503"
+        "index": "7503",
+        "name": "Metrics - Google Maps Platform",
+        "url": "https://console.cloud.google.com/google/maps-apis/metrics?project=PROJECT_ID"
     },
     {
-        "name": "Google Maps / Quotas",
-        "url": "https://console.cloud.google.com/google/maps-apis/quotas?project=PROJECT_ID",
-        "index": "7504"
+        "index": "7504",
+        "name": "Quotas - Google Maps Platform",
+        "url": "https://console.cloud.google.com/google/maps-apis/quotas?project=PROJECT_ID"
     },
     {
-        "name": "Google Maps / Credentials",
-        "url": "https://console.cloud.google.com/google/maps-apis/credentials?project=PROJECT_ID",
-        "index": "7505"
+        "index": "7505",
+        "name": "Credentials - Google Maps Platform",
+        "url": "https://console.cloud.google.com/google/maps-apis/credentials?project=PROJECT_ID"
     },
     {
-        "name": "Google Maps / Support",
-        "url": "https://console.cloud.google.com/google/maps-apis/support?project=PROJECT_ID",
-        "index": "7506"
+        "index": "7506",
+        "name": "Support - Google Maps Platform",
+        "url": "https://console.cloud.google.com/google/maps-apis/support?project=PROJECT_ID"
     },
     {
-        "name": "Google Maps / Solution Builder NEW",
-        "url": "https://console.cloud.google.com/google/maps-apis/solution-builder?project=PROJECT_ID",
-        "index": "7507"
+        "index": "7507",
+        "name": "Map Management - Google Maps Platform",
+        "url": "https://console.cloud.google.com/google/maps-apis/client-maps?project=PROJECT_ID"
     },
     {
-        "name": "Google Maps / Map Management",
-        "url": "https://console.cloud.google.com/google/maps-apis/client-maps?project=PROJECT_ID",
-        "index": "7508"
+        "index": "7508",
+        "name": "Map Styles - Google Maps Platform",
+        "url": "https://console.cloud.google.com/google/maps-apis/client-styles?project=PROJECT_ID"
     },
     {
-        "name": "Google Maps / Map Styles",
-        "url": "https://console.cloud.google.com/google/maps-apis/client-styles?project=PROJECT_ID",
-        "index": "7509"
-    },
-    {
+        "index": "7600",
         "name": "Redis Enterprise",
-        "url": "https://console.cloud.google.com/marketplace/details/endpoints/gcp.redisenterprise.com?project=PROJECT_ID",
-        "index": "7600"
+        "url": "https://console.cloud.google.com/marketplace/details/endpoints/gcp.redisenterprise.com?project=PROJECT_ID"
     },
     {
+        "index": "7700",
         "name": "Apache Kafka on Confluent",
-        "url": "https://console.cloud.google.com/marketplace/details/endpoints/payg-prod.gcpmarketplace.confluent.cloud?project=PROJECT_ID",
-        "index": "7700"
+        "url": "https://console.cloud.google.com/marketplace/details/endpoints/payg-prod.gcpmarketplace.confluent.cloud?project=PROJECT_ID"
     },
     {
+        "index": "7800",
         "name": "DataStax Astra",
-        "url": "https://console.cloud.google.com/datastax/cloud-datastax-astra?project=PROJECT_ID",
-        "index": "7800"
+        "url": "https://console.cloud.google.com/datastax/cloud-datastax-astra?project=PROJECT_ID"
     },
     {
+        "index": "7900",
         "name": "Elasticsearch Service",
-        "url": "https://console.cloud.google.com/marketplace/details/endpoints/elasticsearch-service.gcpmarketplace.elastic.co?project=PROJECT_ID",
-        "index": "7900"
+        "url": "https://console.cloud.google.com/marketplace/details/endpoints/elasticsearch-service.gcpmarketplace.elastic.co?project=PROJECT_ID"
     },
     {
+        "index": "8000",
         "name": "MongoDB Atlas",
-        "url": "https://console.cloud.google.com/marketplace/details/mongodb/atlas-pro?project=PROJECT_ID",
-        "index": "8000"
+        "url": "https://console.cloud.google.com/marketplace/details/mongodb/atlas-pro?project=PROJECT_ID"
     },
     {
-        "name": "Cloud Volumes / Volumes",
-        "url": "https://console.cloud.google.com/netapp/cloud-volumes/volumes?project=PROJECT_ID",
-        "index": "8101"
+        "index": "8101",
+        "name": "Volumes - Cloud Volumes",
+        "url": "https://console.cloud.google.com/netapp/cloud-volumes/volumes?project=PROJECT_ID"
     },
     {
-        "name": "Cloud Volumes / Snapshots",
-        "url": "https://console.cloud.google.com/netapp/cloud-volumes/snapshots?project=PROJECT_ID",
-        "index": "8102"
+        "index": "8102",
+        "name": "Snapshots - Cloud Volumes",
+        "url": "https://console.cloud.google.com/netapp/cloud-volumes/snapshots?project=PROJECT_ID"
     },
     {
-        "name": "Cloud Volumes / Active Directories",
-        "url": "https://console.cloud.google.com/netapp/cloud-volumes/active-directories?project=PROJECT_ID",
-        "index": "8103"
+        "index": "8103",
+        "name": "Active Directories - Cloud Volumes",
+        "url": "https://console.cloud.google.com/netapp/cloud-volumes/active-directories?project=PROJECT_ID"
     }
 ]
