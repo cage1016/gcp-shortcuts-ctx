@@ -1,6 +1,6 @@
 {
   "description": "Add support to the omnibox to quick launch Google Cloud Platform Console.",
-  "name": "GCP Console Shortcuts",
+  "name": "GCP Shortcuts",
   "background": {
     "page": "background.html"
   },
@@ -18,7 +18,7 @@
   "minimum_chrome_version": "9",
   "manifest_version": 2,
   "oauth2": {
-    "client_id": "493281202705-s2tjqeh470qfkmtam691uboa64phiqad.apps.googleusercontent.com",
+    "client_id": "1005992922714-bgv55u50icm7k1nvshck56co6if1m9ae.apps.googleusercontent.com",
     "scopes": [
       "https://www.googleapis.com/auth/cloud-platform.read-only"
     ]
