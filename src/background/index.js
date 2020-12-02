@@ -79,7 +79,9 @@ const setLocalStorageAsync = async (data) => {
   }, () => resolve()))
 }
 
-const getTokenAsync = async () => new Promise((resolve, reject) => chrome.identity.getAuthToken({ 'interactive': true }, (token) => resolve(token)))
+const getTokenAsync = async () => new Promise((resolve, reject) => chrome.identity.getAuthToken({ 'interactive': true }, (token, err) => {
+  resolve(token)
+}))
 
 const revokeAsync = async () => new Promise((resolve, reject) => chrome.identity.getAuthToken({ 'interactive': false }, (current_token) => {
   if (!chrome.runtime.lastError) {
@@ -88,18 +90,25 @@ const revokeAsync = async () => new Promise((resolve, reject) => chrome.identity
     xhr.open('GET', 'https://accounts.google.com/o/oauth2/revoke?token=' + current_token);
     xhr.send();
     resolve()
+  }else{
+    resolve()
   }
 }))
 
 const getProjectAsync = async (token) => new Promise((resolve, reject) => fetch("https://cloudresourcemanager.googleapis.com/v1/projects", {
   method: "GET", headers: { authorization: `Bearer ${token}` }
-}).then(res => res.json()).then(data => resolve(data.projects.sort((a, b) => {
-  let x = a.projectId.toLowerCase()
-  let y = b.projectId.toLowerCase()
-  return ((x < y) ? -1 : ((x > y) ? 1 : 0))
-})))).catch(err => {
+}).then(res => res.json()).then(({ error, projects }) => {
+  if (error) {
+    reject(error.message)
+  } else {
+    resolve(projects.sort((a, b) => {
+      let x = a.projectId.toLowerCase()
+      let y = b.projectId.toLowerCase()
+      return ((x < y) ? -1 : ((x > y) ? 1 : 0))
+    }))
+  }
+})).catch(err => {
   console.error("getProjectAsync err", err)
-  reject([])
 })
 
 const encodeXml = (s) => {
@@ -168,6 +177,10 @@ const filterFunc = (str, find) => {
     if (text == '' || text == 'login' || text == 'logout' || text == 'reset')
       return;
 
+    if (!projects){
+      return;
+    }
+
     let results = []
     let key = null
     let sq = null, mq = null, buf = null
@@ -199,11 +212,11 @@ const filterFunc = (str, find) => {
           },
           {
             content: "reset",
-            description: "reset <dim>default gcloud project</dim>"
+            description: "reset <dim>Reset default gcloud project</dim>"
           },
           {
             content: "login",
-            description: "login <dim>login Google Account</dim>"
+            description: "login <dim>Login Google Account</dim>"
           },
           {
             content: "logout",
@@ -221,7 +234,7 @@ const filterFunc = (str, find) => {
           forEach(p => {
             results.push({
               content: `set:${p.projectId}`,
-              description: matchString(encodeXml(`${p.projectId} (${p.name})`), encodeXml(mq))
+              description: `${matchString(encodeXml(p.projectId), encodeXml(mq))} - <dim>${matchString(encodeXml(p.name), encodeXml(mq))}</dim>`
             });
           })
         break;
@@ -233,7 +246,7 @@ const filterFunc = (str, find) => {
             SERVICES.filter(m => filterFunc(m.name, sq)).forEach(m => {
               buf.push({
                 content: `${m.url.replace(new RegExp(/PROJECT_ID/g), tpp.projectId)}`,
-                description: `${matchString(encodeXml(m.name), encodeXml(sq))} - ${tpp.name} <dim>-</dim> <url>${encodeXml(m.url.replace(new RegExp(/PROJECT_ID/g), tpp.projectId))}</url>`
+                description: `${matchString(encodeXml(m.name), encodeXml(sq))} - <dim>${tpp.name}</dim> - <url>${encodeXml(m.url.replace(new RegExp(/PROJECT_ID/g), tpp.projectId))}</url>`
               })
             })
             results.push(...buf.slice(0, 7))
@@ -244,7 +257,7 @@ const filterFunc = (str, find) => {
             forEach(p => {
               results.push({
                 content: `p:${p.projectId}`,
-                description: matchString(encodeXml(`${p.projectId} (${p.name})`), encodeXml(mq))
+                description: `${matchString(encodeXml(p.projectId), encodeXml(mq))} - <dim>${matchString(encodeXml(p.name), encodeXml(mq))}</dim>`
               });
             })
         }
@@ -256,7 +269,7 @@ const filterFunc = (str, find) => {
         SERVICES.filter(m => filterFunc(m.name, text)).forEach(m => {
           buf.push({
             content: `${m.url.replace(new RegExp(/PROJECT_ID/g), tpx.projectId)}`,
-            description: `${matchString(encodeXml(m.name), encodeXml(text))} - ${tpx.name} <dim>-</dim> <url>${encodeXml(m.url.replace(new RegExp(/PROJECT_ID/g), tpx.projectId))}</url>`
+            description: `${matchString(encodeXml(m.name), encodeXml(text))} - <dim>${tpx.name}</dim> - <url>${encodeXml(m.url.replace(new RegExp(/PROJECT_ID/g), tpx.projectId))}</url>`
           })
         })
         results.push(...buf.slice(0, 7))
@@ -266,28 +279,45 @@ const filterFunc = (str, find) => {
   })
 
   chrome.omnibox.onInputEntered.addListener(async (text) => {
-    if (/^(https:|http:|www\.)\S*/.test(text)) {
-      navigate(text)
-    } else if (/^set:/.test(text)) {
-      const [projects] = await getLocalStorageAsync('projects');
-      const [_, projectId] = text.split(":")
-      const [tp] = projects.filter(p => p.projectId.includes(projectId))
-      if (tp) {
-        await setLocalStorageAsync({ defaultProject: tp })
+    const [projects] = await getLocalStorageAsync('projects');
+    if (projects){
+      // login-ed
+      if (/^(https:|http:|www\.)\S*/.test(text)) {
+        navigate(text)
+      } else if (/^set:/.test(text)) {
+        const [projects] = await getLocalStorageAsync('projects');
+        const [_, projectId] = text.split(":")
+        const [tp] = projects.filter(p => p.projectId.includes(projectId))
+        if (tp) {
+          await setLocalStorageAsync({ defaultProject: tp })
+        }
+      } else if (text === "sync") {
+        const token = await getTokenAsync()
+        if (token) {
+          const projects = await getProjectAsync(token)
+          await setLocalStorageAsync({ projects })
+        }
+      } else if (text === "reset") {
+        await setLocalStorageAsync({ defaultProject: null })
+        updateDefaultSuggestion()
+      } else if (text === "logout") {
+        await revokeAsync()
+        await setLocalStorageAsync({ projects: null, defaultProject: null })
+        updateDefaultSuggestion()
+      } else {
+        console.log(`"${text}" do nothing`)
       }
-    } else if (text === 'login' || text === "sync") {
-      const token = await getTokenAsync()
-      const projects = await getProjectAsync(token)
-      await setLocalStorageAsync({ projects })
-    } else if (text === "reset") {
-      await setLocalStorageAsync({ defaultProject: null })
-      updateDefaultSuggestion()
-    } else if (text === "logout") {
-      await revokeAsync()
-      await setLocalStorageAsync({ projects: null, defaultProject: null })
-      updateDefaultSuggestion()
-    } else {
-      console.log(text)
+    }else{
+      // logout-ed
+      if (text === 'login'){
+        const token = await getTokenAsync()
+        if (token) {
+          const projects = await getProjectAsync(token)
+          await setLocalStorageAsync({ projects })
+        }
+      }else{
+        console.log(`"${text}" do nothing`)
+      }
     }
   })
 })()
