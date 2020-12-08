@@ -19,7 +19,7 @@
   "manifest_version": 2,
   "content_security_policy": "default-src 'self'; script-src 'self' https://localhost:3000 'unsafe-eval'; object-src 'self'; connect-src  https://localhost:3000 wss://localhost:3000 https:; style-src 'self' chrome-extension: * 'unsafe-inline'; img-src 'self' https: http: data:; frame-src https: http:; font-src data: https://localhost:3000;",
   "oauth2": {
-    "client_id": "1005992922714-2dlc7eah5u798bo2np9dpnmofbrvvk9d.apps.googleusercontent.com",
+    "client_id": "758401647612-o746ed8aj0ctqs4r8qfjn471ve9pa15b.apps.googleusercontent.com",
     "scopes": [
       "https://www.googleapis.com/auth/cloud-platform.read-only"
     ]
